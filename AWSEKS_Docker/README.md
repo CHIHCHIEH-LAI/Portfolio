@@ -167,7 +167,7 @@ The following are the object mappings for the python code (https://github.com/ku
 ```
 
 If your server is running correctly, you should be seeing three default pods and two free-service pods running. 
-![image](https://github.com/CHIHCHIEH-LAI/CCA/blob/main/MP12_PublicFiles/imgs/pods.png)
+![image](https://github.com/CHIHCHIEH-LAI/Project-Portfolio-Collection/blob/main/AWSEKS_Docker/imgs/pods.png)
 
 ## Final Result
 Virtualization helped us effectively provision our hardware resources and achieve isolation between different executions. Moreover, we could easily deploy our neural network in any of our nodes without worrying about the environment, dependencies, etc.
