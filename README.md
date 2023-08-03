@@ -36,7 +36,7 @@ The implementation follows a three-layer protocol stack: Application, P2P, and E
 Key Skills: C++, all-to-all heartbeating membership protocol
 
 ## Web Development
-### Research Topic Explorer
+### Publication Explorer App with MySQL, MongoDB and Neo4j
 The "Research Topic Explorer" is an interactive web application designed to assist users in discovering research directions and relevant publications. It provides valuable guidance to users, whether they are exploring new research areas or searching for specific papers. The app also offers the functionality to find faculty members with similar research interests, promoting collaboration within the academic community.
 
 Features:
@@ -63,10 +63,20 @@ The "NBA Players Visualization" project aims to create an interactive narrative 
 Key Skills: D3js, HTML, JavaScript, CSS, narrative visualization, front-end web development
 
 ## Amazon Web Service (AWS)
-### 
+### US City Distance Calculator Chatbot with AWS Lambda, Lex and DynamoDB
+
+This project builds a chatbot using AWS Lex and Lambda for calculating the shortest distance between two cities in a directed graph with unit-weight edges.
+
+Key Skills: PyThon, AWS Lambda, AWS Lex, serverless computing
+
+### AWS Storage Service with RDS, ElastiCache, and S3
+
+The project aims to demonstrate the performance benefits of using AWS RDS, ElastiCache, and S3 to build a storage service with read and write APIs for a relational database. The architecture includes Amazon Aurora as the database, Amazon S3 for data storage, and a Redis cluster for caching. Lambda functions are used to implement the APIs.
+
+Key Skills: Python, AWS RDS, AWS ElasticCache, AWS S3, SQL, serverless computing, caching
 
 ## Artificial Intelligence (AI/ML/DL)
-### PyTorch Aging GAN
+### Face-Aging Image Generation with PyTorch and GANs
 The "Aging GAN" project trains a Generative Adversarial Network (GAN) from scratch to generate realistic aging faces. The GAN takes two inputs: a face image and the desired age (ranging from 20 to 70 years) and produces an output image of the face aged to the specified age.
 
 Key Skills: Python, PyTorch, Numpy, generative adversarial network, deep learning, vision transformer, conditional transformer
