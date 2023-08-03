@@ -14,10 +14,20 @@ Thank you for visiting my project showcase, and I hope you enjoy exploring these
 ---
 
 ## Distributed Systems
-### Fault-Tolerant Key-Value Store
+### Fault-Tolerant Key-Value Store (currently working on)
+In this project, I will be building a fault-tolerant key-value store that supports CRUD operations (Create, Read, Update, Delete). The key-value store will also provide load-balancing using a consistent hashing ring to hash both servers and keys, and it will be fault-tolerant up to two failures.
+
+The project is built upon the foundation of a Membership Protocol, which I have implemented. The project handles failure detection and maintains a dynamic view of the membership in the distributed system.
+
+Features
+1. CRUD Operations: The key-value store will support Create, Read, Update, and Delete operations, allowing users to store and manage data efficiently.
+2. Load-Balancing: Load-balancing will be achieved through a consistent hashing ring that efficiently distributes keys and servers, ensuring a balanced distribution of data across the system.
+3. Fault-Tolerance: The system will be able to tolerate up to two failures. To achieve fault-tolerance, each key will be replicated three times and stored on three successive nodes in the ring, starting from the first node at or to the clockwise of the hashed key.
+4. Quorum Consistency Level: Both read and write operations will follow a quorum consistency level, where at least two replicas are involved to ensure data consistency.
+5. Stabilization After Failure: The system will be capable of stabilizing after a failure by recreating the necessary replicas to maintain fault-tolerance.
 
 
-Key Skills: C++, key-value stores, transaction control, replication control
+Key Skills: C++, key-value stores, replication control, load-balancing mechanisms, CRUD operations, leader election
 
 ---
 
@@ -67,6 +77,8 @@ Implementation:
 * Application layer comprises app_widget, app_layout, and app, using Dash components like dcc.Input, dcc.Graph, dash_table.DataTable, and dcc.Dropdown.
 * Callback functions update widgets with data from databases based on user inputs.
 
+[Demo](https://www.youtube.com/watch?v=dz1DilhuRcw)
+
 
 Key Skills: Python, MySQL, MongoDB, Neo4j, Dash, database, dashboard design, classic three-tier design
 
@@ -74,6 +86,9 @@ Key Skills: Python, MySQL, MongoDB, Neo4j, Dash, database, dashboard design, cla
 
 ### NBA Player Narrative Visualization
 The "NBA Players Visualization" project aims to create an interactive narrative visualization for NBA player contracts, offering valuable insights into player salaries and ratings. The visualization empowers users to explore the average salaries of NBA first-round drafted players based on their positions and analyze the relationship between salary and 2K rating for different positions and countries.
+
+[Demo](https://chihchieh-lai.github.io/)
+[Repo](https://github.com/CHIHCHIEH-LAI/NBA-Player-Narrative-Visualization-Drilldown-D3js)
 
 
 Key Skills: D3js, HTML, JavaScript, CSS, narrative visualization, front-end web development
@@ -111,6 +126,8 @@ Key Skills: Python, Flask, Docker, DockerHub, AWS EKS, http
 ## Artificial Intelligence (AI/ML/DL)
 ### Face-Aging Image Generation with PyTorch and GANs
 The "Aging GAN" project trains a Generative Adversarial Network (GAN) from scratch to generate realistic aging faces. The GAN takes two inputs: a face image and the desired age (ranging from 20 to 70 years) and produces an output image of the face aged to the specified age.
+
+[Repo](https://github.com/CHIHCHIEH-LAI/Aging-GAN-PyTorch)
 
 
 Key Skills: Python, PyTorch, Numpy, generative adversarial network, deep learning, vision transformer, conditional transformer
