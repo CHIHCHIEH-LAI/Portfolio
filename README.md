@@ -13,6 +13,27 @@ Thank you for visiting my project showcase, and I hope you enjoy exploring these
 
 ---
 
+## Categories
+
+### Distributed Systems
+- Fault-Tolerant Key-Value Store
+- Gossip-Style Heartbeating Membership Protocol
+- All To All Heartbeating Membership Protocol
+
+### Web Development
+- Publication Explorer App with MySQL, MongoDB, and Neo4j
+- NBA Player Narrative Visualization
+
+### Amazon Web Service (AWS)
+- US City Distance Calculator Chatbot with AWS Lambda, Lex, and DynamoDB
+- AWS Storage Service with RDS, ElastiCache, and S3
+- Deep Learning Web Service using AWS EKS and Docker
+
+### Artificial Intelligence (AI/ML/DL)
+- Face-Aging Image Generation with PyTorch and GANs
+
+---
+
 ## Distributed Systems
 ### Fault-Tolerant Key-Value Store (currently working on)
 In this project, I will be building a fault-tolerant key-value store that supports CRUD operations (Create, Read, Update, Delete). The key-value store will also provide load-balancing using a consistent hashing ring to hash both servers and keys, and it will be fault-tolerant up to two failures.
