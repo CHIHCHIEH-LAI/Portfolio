@@ -74,6 +74,8 @@ The implementation follows a three-layer protocol stack: Application, P2P, and E
 
 Key Skills: C++, all-to-all heartbeating membership protocol
 
+---
+
 ## Web Development
 ### Publication Explorer App with MySQL, MongoDB and Neo4j
 The "Research Topic Explorer" is an interactive web application designed to assist users in discovering research directions and relevant publications. It provides valuable guidance to users, whether they are exploring new research areas or searching for specific papers. The app also offers the functionality to find faculty members with similar research interests, promoting collaboration within the academic community.
