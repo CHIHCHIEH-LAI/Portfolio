@@ -13,22 +13,22 @@ Thank you for visiting my project showcase, and I hope you enjoy exploring these
 
 ## Categories
 
-- Distributed Systems
+- [Distributed Systems](https://github.com/CHIHCHIEH-LAI/Project-Portfolio-Collection/tree/main#distributed-systems)
   - Fault-Tolerant Key-Value Store
   - Gossip-Style Heartbeating Membership Protocol
   - All To All Heartbeating Membership Protocol
 
-- Web Development
+- [Web Development](https://github.com/CHIHCHIEH-LAI/Project-Portfolio-Collection/tree/main#web-development)
   - Publication Explorer App with MySQL, MongoDB, and Neo4j
   - NBA Player Narrative Visualization
 
-- Amazon Web Service (AWS)
+- [Amazon Web Service (AWS)](https://github.com/CHIHCHIEH-LAI/Project-Portfolio-Collection/tree/main#amazon-web-service-aws)
   - US City Distance Calculator Chatbot with AWS Lambda, Lex, and DynamoDB
   - AWS Storage Service with RDS, ElastiCache, and S3
   - Deep Learning Web Service using AWS EKS and Docker
 
-- Artificial Intelligence (AI/ML/DL)
-  - Face-Aging Image Generation with PyTorch and GANs
+- [Artificial Intelligence (AI/ML/DL)](https://github.com/CHIHCHIEH-LAI/Project-Portfolio-Collection/tree/main#artificial-intelligence-aimldl)
+  - [Face-Aging Image Generation with PyTorch and GANs](https://github.com/CHIHCHIEH-LAI/Project-Portfolio-Collection/tree/main#face-aging-image-generation-with-pytorch-and-gans)
 
 ## Distributed Systems
 ### Fault-Tolerant Key-Value Store (currently working on)
