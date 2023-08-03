@@ -11,28 +11,24 @@ As you browse through this showcase, I hope you find inspiration and insight int
 
 Thank you for visiting my project showcase, and I hope you enjoy exploring these projects as much as I enjoyed creating them!
 
----
-
 ## Categories
 
-### Distributed Systems
-- Fault-Tolerant Key-Value Store
-- Gossip-Style Heartbeating Membership Protocol
-- All To All Heartbeating Membership Protocol
+- Distributed Systems
+  - Fault-Tolerant Key-Value Store
+  - Gossip-Style Heartbeating Membership Protocol
+  - All To All Heartbeating Membership Protocol
 
-### Web Development
-- Publication Explorer App with MySQL, MongoDB, and Neo4j
-- NBA Player Narrative Visualization
+- Web Development
+  - Publication Explorer App with MySQL, MongoDB, and Neo4j
+  - NBA Player Narrative Visualization
 
-### Amazon Web Service (AWS)
-- US City Distance Calculator Chatbot with AWS Lambda, Lex, and DynamoDB
-- AWS Storage Service with RDS, ElastiCache, and S3
-- Deep Learning Web Service using AWS EKS and Docker
+- Amazon Web Service (AWS)
+  - US City Distance Calculator Chatbot with AWS Lambda, Lex, and DynamoDB
+  - AWS Storage Service with RDS, ElastiCache, and S3
+  - Deep Learning Web Service using AWS EKS and Docker
 
-### Artificial Intelligence (AI/ML/DL)
-- Face-Aging Image Generation with PyTorch and GANs
-
----
+- Artificial Intelligence (AI/ML/DL)
+  - Face-Aging Image Generation with PyTorch and GANs
 
 ## Distributed Systems
 ### Fault-Tolerant Key-Value Store (currently working on)
