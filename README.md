@@ -104,7 +104,7 @@ This project builds a chatbot using AWS Lex and Lambda for calculating the short
 
 [README](https://github.com/CHIHCHIEH-LAI/Project-Portfolio-Collection/tree/main/AWSLambda_Lex)
 
-Key Skills: PyThon, AWS Lambda, AWS Lex, serverless computing
+Key Skills: PyThon, AWS Lambda, AWS DynamoDB, AWS Lex, serverless computing
 
 ---
 
