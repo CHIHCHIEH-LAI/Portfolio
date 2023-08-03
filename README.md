@@ -14,18 +14,18 @@ Thank you for visiting my project showcase, and I hope you enjoy exploring these
 ## Categories
 
 - [Distributed Systems](https://github.com/CHIHCHIEH-LAI/Project-Portfolio-Collection/tree/main#distributed-systems)
-  - Fault-Tolerant Key-Value Store
-  - Gossip-Style Heartbeating Membership Protocol
-  - All To All Heartbeating Membership Protocol
+  - [Fault-Tolerant Key-Value Store](https://github.com/CHIHCHIEH-LAI/Project-Portfolio-Collection/tree/main#fault-tolerant-key-value-store-currently-working-on)
+  - [Gossip-Style Heartbeating Membership Protocol](https://github.com/CHIHCHIEH-LAI/Project-Portfolio-Collection/tree/main#gossip-style-heartbeating-membership-protocol)
+  - [All To All Heartbeating Membership Protocol](https://github.com/CHIHCHIEH-LAI/Project-Portfolio-Collection/tree/main#all-to-all-heartbeating-membership-protocol)
 
 - [Web Development](https://github.com/CHIHCHIEH-LAI/Project-Portfolio-Collection/tree/main#web-development)
-  - Publication Explorer App with MySQL, MongoDB, and Neo4j
-  - NBA Player Narrative Visualization
+  - [Publication Explorer App with MySQL, MongoDB, and Neo4j](https://github.com/CHIHCHIEH-LAI/Project-Portfolio-Collection/tree/main#publication-explorer-app-with-mysql-mongodb-and-neo4j)
+  - [NBA Player Narrative Visualization](https://github.com/CHIHCHIEH-LAI/Project-Portfolio-Collection/tree/main#nba-player-narrative-visualization)
 
 - [Amazon Web Service (AWS)](https://github.com/CHIHCHIEH-LAI/Project-Portfolio-Collection/tree/main#amazon-web-service-aws)
-  - US City Distance Calculator Chatbot with AWS Lambda, Lex, and DynamoDB
-  - AWS Storage Service with RDS, ElastiCache, and S3
-  - Deep Learning Web Service using AWS EKS and Docker
+  - [US City Distance Calculator Chatbot with AWS Lambda, Lex, and DynamoDB](https://github.com/CHIHCHIEH-LAI/Project-Portfolio-Collection/tree/main#us-city-distance-calculator-chatbot-with-aws-lambda-lex-and-dynamodb)
+  - [AWS Storage Service with RDS, ElastiCache, and S3](https://github.com/CHIHCHIEH-LAI/Project-Portfolio-Collection/tree/main#aws-storage-service-with-rds-elasticache-and-s3)
+  - [Deep Learning Web Service using AWS EKS and Docker](https://github.com/CHIHCHIEH-LAI/Project-Portfolio-Collection/tree/main#deep-learning-web-service-using-aws-eks-and-docker)
 
 - [Artificial Intelligence (AI/ML/DL)](https://github.com/CHIHCHIEH-LAI/Project-Portfolio-Collection/tree/main#artificial-intelligence-aimldl)
   - [Face-Aging Image Generation with PyTorch and GANs](https://github.com/CHIHCHIEH-LAI/Project-Portfolio-Collection/tree/main#face-aging-image-generation-with-pytorch-and-gans)
