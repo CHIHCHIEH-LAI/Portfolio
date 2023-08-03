@@ -88,6 +88,7 @@ Key Skills: Python, MySQL, MongoDB, Neo4j, Dash, database, dashboard design, cla
 The "NBA Players Visualization" project aims to create an interactive narrative visualization for NBA player contracts, offering valuable insights into player salaries and ratings. The visualization empowers users to explore the average salaries of NBA first-round drafted players based on their positions and analyze the relationship between salary and 2K rating for different positions and countries.
 
 [Demo](https://chihchieh-lai.github.io/)
+
 [Repo](https://github.com/CHIHCHIEH-LAI/NBA-Player-Narrative-Visualization-Drilldown-D3js)
 
 
