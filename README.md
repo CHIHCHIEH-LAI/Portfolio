@@ -10,3 +10,18 @@ In this portfolio, you will find a variety of projects, each with its unique cha
 As you browse through this showcase, I hope you find inspiration and insight into my problem-solving approach and how I leverage technology to create meaningful solutions. If you have any questions or would like to connect, feel free to reach out to me.
 
 Thank you for visiting my project showcase, and I hope you enjoy exploring these projects as much as I enjoyed creating them!
+
+## Distributed Systems
+### Fault-Tolerant Key-Value Store
+### Gossip-Style Heartbeating Membership Protocol
+### All To All Heartbeating Membership Protocol
+
+## Web Development
+### Research Topic Explorer
+### NBA Player Narrative Visualization
+
+## Amazon Web Service (AWS)
+### 
+
+## Artificial Intelligence (AI/ML/DL)
+### PyTorch Aging GAN
