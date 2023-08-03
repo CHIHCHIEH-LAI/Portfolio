@@ -75,6 +75,11 @@ The project aims to demonstrate the performance benefits of using AWS RDS, Elast
 
 Key Skills: Python, AWS RDS, AWS ElasticCache, AWS S3, SQL, serverless computing, caching
 
+### Deep Learning Web Service using AWS EKS and Docker
+Key Skills: Python, Flask, Docker, DockerHub, AWS EKS, http
+
+This project set up and manage infrastructure using Kubernetes and Docker containers to provide an online image classification service for the given project. The service will be exposed through a web server interface that receives HTTP requests and launches corresponding machine learning (ML) jobs using Kubernetes.
+
 ## Artificial Intelligence (AI/ML/DL)
 ### Face-Aging Image Generation with PyTorch and GANs
 The "Aging GAN" project trains a Generative Adversarial Network (GAN) from scratch to generate realistic aging faces. The GAN takes two inputs: a face image and the desired age (ranging from 20 to 70 years) and produces an output image of the face aged to the specified age.
