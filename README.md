@@ -13,6 +13,8 @@ Thank you for visiting my project showcase, and I hope you enjoy exploring these
 
 ## Distributed Systems
 ### Fault-Tolerant Key-Value Store
+Key Skills: C++, key-value stores, transaction control, replication control
+
 ### Gossip-Style Heartbeating Membership Protocol
 The "Gossip-Style Membership Protocol" project implements a membership protocol that ensures complete and accurate failure detection in a distributed system. The protocol achieves the following requirements:
 
@@ -20,6 +22,8 @@ The "Gossip-Style Membership Protocol" project implements a membership protocol 
 2. Accuracy of failure detection: The protocol maintains high accuracy in failure detection even in the presence of message losses and small delays. It effectively handles simultaneous multiple failures.
 
 The implementation follows a three-layer protocol stack: Application, P2P, and EmulNet layers. Grading using the ./Grade.sh script validates the protocol's performance in scenarios like single node failure, multiple node failures, and single node failure under a lossy network. The project showcases a robust and accurate gossip-style heartbeating membership protocol for distributed systems.
+
+Key Skills: C++, gossip-style heartbeating membership protocol
 
 ### All To All Heartbeating Membership Protocol
 The "All-To-All Heartbeating Membership Protocol" project project implements a membership protocol that ensures complete and accurate failure detection in a distributed system. The protocol achieves the following requirements:
@@ -29,9 +33,14 @@ The "All-To-All Heartbeating Membership Protocol" project project implements a m
 
 The implementation follows a three-layer protocol stack: Application, P2P, and EmulNet layers. Grading using the ./Grade.sh script validates the protocol's performance in scenarios like single node failure, multiple node failures, and single node failure under a lossy network. The project showcases a robust and accurate all-to-all heartbeating membership protocol for distributed systems.
 
+Key Skills: C++, all-to-all heartbeating membership protocol
+
 ## Web Development
 ### Research Topic Explorer
 ### NBA Player Narrative Visualization
+The "NBA Players Visualization" project aims to create an interactive narrative visualization for NBA player contracts, offering valuable insights into player salaries and ratings. The visualization empowers users to explore the average salaries of NBA first-round drafted players based on their positions and analyze the relationship between salary and 2K rating for different positions and countries.
+
+Key Skills: D3js, HTML, JavaScript, CSS, Narrative Visualization
 
 ## Amazon Web Service (AWS)
 ### 
