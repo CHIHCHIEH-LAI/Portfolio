@@ -136,6 +136,6 @@ The "Aging GAN" project trains a Generative Adversarial Network (GAN) from scrat
 [REPO](https://github.com/CHIHCHIEH-LAI/Aging-GAN-PyTorch)
 
 
-Key Skills: Python, PyTorch, Numpy, generative adversarial network, conditional GAN, vision transformer, deep learning
+Key Skills: Python, PyTorch, Numpy, generative adversarial network (GAN), conditional GAN, vision transformer, deep learning
 
 ---
