@@ -2,7 +2,7 @@
 
 ## Overview
 This MP explores AWS RDS, ElastiCache, S3 and how using ElastiCache can boost RDS performance. Specifically, you will build a storage service to support read and write queries on data stored in a relational database. The read and write APIs are built using Lambda functions. Your goal is to demonstrate the performance benefits of using caching to improve the performance of database queries.
-![MP6_Aurora_ElastiCache/images/diagram.jpg](https://github.com/CHIHCHIEH-LAI/CCA/blob/main/MP6_Aurora_ElastiCache/images/diagram.jpg)
+![MP6_Aurora_ElastiCache/images/diagram.jpg](https://github.com/CHIHCHIEH-LAI/Project-Portfolio-Collection/blob/main/Aurora_ElastiCache/images/diagram.jpg)
 
 ## Populate a database and set up a Redis cluster
 ### Amazon S3 setup
