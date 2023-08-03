@@ -1,6 +1,6 @@
 # research-topic-explorer
 ## Overview
-![image](https://github.com/CHIHCHIEH-LAI/research-topic-explorer/blob/main/imgs/application_overview.jpg)
+![image](https://github.com/CHIHCHIEH-LAI/Project-Portfolio-Collection/blob/main/Research-Topic-Explorer/imgs/Overall_Architecture.jpg)
 ## Basic Information
 * Title: Professor Chang! What could be my thesis topic?
 * Purpose
