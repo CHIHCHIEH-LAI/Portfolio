@@ -53,6 +53,7 @@ The "All-To-All Heartbeating Membership Protocol" project project implements a m
 
 The implementation follows a three-layer protocol stack: Application, P2P, and EmulNet layers. Grading using the ./Grade.sh script validates the protocol's performance in scenarios like single node failure, multiple node failures, and single node failure under a lossy network. The project showcases a robust and accurate all-to-all heartbeating membership protocol for distributed systems.
 
+[README](https://github.com/CHIHCHIEH-LAI/Project-Portfolio-Collection/tree/main/All-To-All-Heartbeating-Membership-Protocol)
 
 Key Skills: C++, all-to-all heartbeating membership protocol
 
