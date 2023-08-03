@@ -114,6 +114,7 @@ Key Skills: PyThon, AWS Lambda, AWS Lex, serverless computing
 
 The project aims to demonstrate the performance benefits of using AWS RDS, ElastiCache, and S3 to build a storage service with read and write APIs for a relational database. The architecture includes Amazon Aurora as the database, Amazon S3 for data storage, and a Redis cluster for caching. Lambda functions are used to implement the APIs.
 
+[README](https://github.com/CHIHCHIEH-LAI/Project-Portfolio-Collection/tree/main/Aurora_ElastiCache)
 
 Key Skills: Python, AWS RDS, AWS ElasticCache, AWS S3, SQL, serverless computing, caching
 
@@ -122,6 +123,8 @@ Key Skills: Python, AWS RDS, AWS ElasticCache, AWS S3, SQL, serverless computing
 ### Deep Learning Web Service using AWS EKS and Docker
 
 This project set up and manage infrastructure using Kubernetes and Docker containers to provide an online image classification service for the given project. The service will be exposed through a web server interface that receives HTTP requests and launches corresponding machine learning (ML) jobs using Kubernetes.
+
+[README](https://github.com/CHIHCHIEH-LAI/Project-Portfolio-Collection/tree/main/AWSEKS_Docker)
 
 
 Key Skills: Python, Flask, Docker, DockerHub, AWS EKS, http
