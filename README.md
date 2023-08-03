@@ -11,9 +11,15 @@ As you browse through this showcase, I hope you find inspiration and insight int
 
 Thank you for visiting my project showcase, and I hope you enjoy exploring these projects as much as I enjoyed creating them!
 
+---
+
 ## Distributed Systems
 ### Fault-Tolerant Key-Value Store
+
+
 Key Skills: C++, key-value stores, transaction control, replication control
+
+---
 
 ### Gossip-Style Heartbeating Membership Protocol
 The "Gossip-Style Membership Protocol" project implements a membership protocol that ensures complete and accurate failure detection in a distributed system. The protocol achieves the following requirements:
@@ -23,7 +29,10 @@ The "Gossip-Style Membership Protocol" project implements a membership protocol 
 
 The implementation follows a three-layer protocol stack: Application, P2P, and EmulNet layers. Grading using the ./Grade.sh script validates the protocol's performance in scenarios like single node failure, multiple node failures, and single node failure under a lossy network. The project showcases a robust and accurate gossip-style heartbeating membership protocol for distributed systems.
 
+
 Key Skills: C++, gossip-style heartbeating membership protocol
+
+---
 
 ### All To All Heartbeating Membership Protocol
 The "All-To-All Heartbeating Membership Protocol" project project implements a membership protocol that ensures complete and accurate failure detection in a distributed system. The protocol achieves the following requirements:
@@ -33,7 +42,10 @@ The "All-To-All Heartbeating Membership Protocol" project project implements a m
 
 The implementation follows a three-layer protocol stack: Application, P2P, and EmulNet layers. Grading using the ./Grade.sh script validates the protocol's performance in scenarios like single node failure, multiple node failures, and single node failure under a lossy network. The project showcases a robust and accurate all-to-all heartbeating membership protocol for distributed systems.
 
+
 Key Skills: C++, all-to-all heartbeating membership protocol
+
+---
 
 ## Web Development
 ### Publication Explorer App with MySQL, MongoDB and Neo4j
@@ -55,33 +67,52 @@ Implementation:
 * Application layer comprises app_widget, app_layout, and app, using Dash components like dcc.Input, dcc.Graph, dash_table.DataTable, and dcc.Dropdown.
 * Callback functions update widgets with data from databases based on user inputs.
 
+
 Key Skills: Python, MySQL, MongoDB, Neo4j, Dash, database, dashboard design, classic three-tier design
+
+---
 
 ### NBA Player Narrative Visualization
 The "NBA Players Visualization" project aims to create an interactive narrative visualization for NBA player contracts, offering valuable insights into player salaries and ratings. The visualization empowers users to explore the average salaries of NBA first-round drafted players based on their positions and analyze the relationship between salary and 2K rating for different positions and countries.
 
+
 Key Skills: D3js, HTML, JavaScript, CSS, narrative visualization, front-end web development
+
+---
 
 ## Amazon Web Service (AWS)
 ### US City Distance Calculator Chatbot with AWS Lambda, Lex and DynamoDB
 
 This project builds a chatbot using AWS Lex and Lambda for calculating the shortest distance between two cities in a directed graph with unit-weight edges.
 
+
 Key Skills: PyThon, AWS Lambda, AWS Lex, serverless computing
+
+---
 
 ### AWS Storage Service with RDS, ElastiCache, and S3
 
 The project aims to demonstrate the performance benefits of using AWS RDS, ElastiCache, and S3 to build a storage service with read and write APIs for a relational database. The architecture includes Amazon Aurora as the database, Amazon S3 for data storage, and a Redis cluster for caching. Lambda functions are used to implement the APIs.
 
+
 Key Skills: Python, AWS RDS, AWS ElasticCache, AWS S3, SQL, serverless computing, caching
 
+---
+
 ### Deep Learning Web Service using AWS EKS and Docker
-Key Skills: Python, Flask, Docker, DockerHub, AWS EKS, http
 
 This project set up and manage infrastructure using Kubernetes and Docker containers to provide an online image classification service for the given project. The service will be exposed through a web server interface that receives HTTP requests and launches corresponding machine learning (ML) jobs using Kubernetes.
+
+
+Key Skills: Python, Flask, Docker, DockerHub, AWS EKS, http
+
+---
 
 ## Artificial Intelligence (AI/ML/DL)
 ### Face-Aging Image Generation with PyTorch and GANs
 The "Aging GAN" project trains a Generative Adversarial Network (GAN) from scratch to generate realistic aging faces. The GAN takes two inputs: a face image and the desired age (ranging from 20 to 70 years) and produces an output image of the face aged to the specified age.
 
+
 Key Skills: Python, PyTorch, Numpy, generative adversarial network, deep learning, vision transformer, conditional transformer
+
+---
