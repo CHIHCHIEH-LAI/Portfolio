@@ -67,3 +67,6 @@ Key Skills: D3js, HTML, JavaScript, CSS, narrative visualization, front-end web 
 
 ## Artificial Intelligence (AI/ML/DL)
 ### PyTorch Aging GAN
+The "Aging GAN" project trains a Generative Adversarial Network (GAN) from scratch to generate realistic aging faces. The GAN takes two inputs: a face image and the desired age (ranging from 20 to 70 years) and produces an output image of the face aged to the specified age.
+
+Key Skills: Python, PyTorch, Numpy, generative adversarial network, deep learning, vision transformer, conditional transformer
