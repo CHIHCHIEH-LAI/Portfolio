@@ -1,6 +1,6 @@
 # research-topic-explorer
 ## Overview
-![image](https://github.com/CHIHCHIEH-LAI/Project-Portfolio-Collection/blob/main/Research-Topic-Explorer/imgs/Overall_Architecture.jpg)
+![image](https://github.com/CHIHCHIEH-LAI/Project-Portfolio-Collection/blob/main/Research-Topic-Explorer/imgs/application_overview.jpg)
 ## Basic Information
 * Title: Professor Chang! What could be my thesis topic?
 * Purpose
@@ -12,85 +12,29 @@
 
 * [Demo Link](https://youtu.be/dz1DilhuRcw)
 
-## Installation
-* Install Database Engine
-  * MySQL: follow the instructions [here](https://dev.to/gsudarshan/how-to-install-mysql-and-workbench-on-ubuntu-20-04-localhost-5828)
-  * MongoDB: follow the instructions [here](https://www.mongodb.com/docs/manual/administration/install-community/)
-  * Neo4j: Go to [Neo4j Website](https://neo4j.com/download-neo4j-now), fill in the information box, and then click Download Neo4j Now, this will jump to the download page. (choose .AppImage for linux version)
-  
-  For more details, please check [here](https://github.com/CHIHCHIEH-LAI/research-topic-explorer/blob/main/materials/Setting%20Up%20Database%20Environments.pdf)
-  
-* Install Required Python Packages By [setup.sh](https://github.com/CHIHCHIEH-LAI/research-topic-explorer/blob/main/setup.sh)
-  ```
-  ./setup.sh
-  ```
-  
-* Start the database engines
-
-* Load Extra Data into MySQL Database
-  1. Log in to mysql shell:
-  ```
-  $ mysql -u root -p
-  Enter password: *******
-  ```
-  2. Import [database_update.sql](https://github.com/CHIHCHIEH-LAI/research-topic-explorer/blob/main/src/database_update.sql) file into the database:
-  ```
-  > source [file/to/database_update.sql]
-  ```
-  3. Exit from mysql shell:
-  ```
-  exit
-  ```
-  4. Run [cluster_research_topic_after_cleaning.py](https://github.com/CHIHCHIEH-LAI/research-topic-explorer/blob/main/src/cluster_research_topic_after_cleaning.py)
-  ```
-  cd src
-  python3 cluster_research_topic_after_cleaning.py 
-  ```
-  
-* Add indexing for MongoDB collection
-  1. Log in to mongo shell:
-  ```
-  mongo
-  ```
-  2. Enter in the database
-  ```
-  use academicworld;
-  ```
-  3. add indexing
-  ```
-  db.publication.createIndex({ ‘keywords.name’: 1 })
-  ```
-  
-* Setup database [configuration file](https://github.com/CHIHCHIEH-LAI/research-topic-explorer/blob/main/src/DBconfig.json) 
-  
-* Run the app
-  ```
-  python3 app.py
-  ```
-
 ## Usage
 1. Input interested word to search for related keywords
-![image](https://github.com/CHIHCHIEH-LAI/research-topic-explorer/blob/main/imgs/related_keyword.jpg)
+![image](https://github.com/CHIHCHIEH-LAI/Project-Portfolio-Collection/blob/main/Research-Topic-Explorer/imgs/related_keyword.jpg)
 Once users input their topic of interest, the app generates a bar chart displaying related keywords sorted by the number of associated publications. This feature allows users to easily identify and explore relevant keywords that capture their attention, providing them with a starting point for their research direction.
 
-2. Input interested keyword to see its trend and associated publications
-![image](https://github.com/CHIHCHIEH-LAI/research-topic-explorer/blob/main/imgs/keyword_trend_publication.jpg)
+3. Input interested keyword to see its trend and associated publications
+![image](https://github.com/CHIHCHIEH-LAI/Project-Portfolio-Collection/blob/main/Research-Topic-Explorer/imgs/keyword_trend_publication.jpg)
 After selecting a keyword of interest, users can input it into the designated section within the app. The app generates a chart displaying the frequency of publications related to that keyword over time. This feature enables users to observe trends in the popularity of their topic of interest and determine whether it is gaining or losing traction in the field. In addition to displaying the frequency of publications over time, the app provides users with a table of associated publications, including the publication ID, title, year of publication, and number of citations. This feature allows users to delve deeper into the research surrounding their topic of interest, gaining a comprehensive understanding of the current state of knowledge in the field.
 
-3. Input interested publication to search for more similar publication
-![image](https://github.com/CHIHCHIEH-LAI/research-topic-explorer/blob/main/imgs/similar_publication.jpg)
+4. Input interested publication to search for more similar publication
+![image](https://github.com/CHIHCHIEH-LAI/Project-Portfolio-Collection/blob/main/Research-Topic-Explorer/imgs/similar_publication.jpg)
 If users come across an interesting publication while using the app, they can input its title into the search function to find more related publications. The app generates a table of similar publications, including relevant keywords, publication title, year of publication, and number of citations. This feature allows users to further expand their research and stay up-to-date with the latest developments in their field of interest.
 
-4. Choose university to find faculty with the same interest
-![image](https://github.com/CHIHCHIEH-LAI/research-topic-explorer/blob/main/imgs/group_faculty.jpg)
+5. Choose university to find faculty with the same interest
+![image](https://github.com/CHIHCHIEH-LAI/Project-Portfolio-Collection/blob/main/Research-Topic-Explorer/imgs/group_faculty.jpg)
 The app not only helps users find suitable publications, but also recommends potential collaborators. Users can select a university from a dropdown menu, and the app will display several faculty clusters with similar research interests and publications in that university. This feature facilitates collaboration between researchers with similar interests and expertise, potentially leading to more impactful research outcomes.
 
-5. Add new publication
-![image](https://github.com/CHIHCHIEH-LAI/research-topic-explorer/blob/main/imgs/update_widgets.jpg)
+6. Add new publication
+![image](https://github.com/CHIHCHIEH-LAI/Project-Portfolio-Collection/blob/main/Research-Topic-Explorer/imgs/update_widgets.jpg)
 The world of academia is constantly evolving, with new publications being released on a regular basis. To ensure that the app stays up-to-date, users have the option to add new publications and their associated keyword scores to the app's database. To do so, users simply input the publication information and publication keyword score, and then press the submit button to add the new data to the database. In the event that users accidentally add incorrect data, they can easily rectify their mistake by pressing the reset button to remove all added data.
 
 ## Design
-![image](https://github.com/CHIHCHIEH-LAI/research-topic-explorer/blob/main/imgs/Overall_Architecture.jpg) \
+![image](https://github.com/CHIHCHIEH-LAI/Project-Portfolio-Collection/blob/main/Research-Topic-Explorer/imgs/Overall_Architecture.jpg) \
 The architecture of the application is divided into three layers, namely database, data access, and application layers. In the database layer, we have MySQL, MongoDB, and Neo4j servers where data is stored. The data access layer consists of mysql_utils, mongodb_utils, and neo4j_utils that serve as interfaces to the databases, allowing the application layer to query and update the databases. The application layer consists of app_widget, app_layout, and app. The app runs the application and displays the widgets mentioned above, while receiving the HTML layout from app_layout. The app_widget uses callback functions to update widget figures in html layout and tables whenever an input component's property changes. During the update process, the callback functions access databases through the data access layer.
 
 ## Implementation
@@ -160,50 +104,3 @@ Please refer to 161th - 163th lines of code in src/app.py and 60th - 80th lines 
   MySQL Connector's prepared statement is a feature that allows for more efficient and secure execution of SQL queries. A prepared statement is a precompiled SQL statement that is executed multiple times with different parameter values. It has two stages: preparation and execution. In the preparation stage, the SQL statement is parsed, analyzed, and optimized by the database server, and a query execution plan is generated. In the execution stage, the prepared statement is executed with the supplied parameter values, which are substituted into the query plan, reducing the overhead of parsing and optimizing the SQL statement for each execution.
 
   Prepared statements are particularly useful in preventing SQL injection attacks, as they allow for parameterized queries that separate SQL code and user input, thereby preventing malicious input from affecting the SQL statement's syntax. This feature significantly improves the security of an application, making it a recommended practice for developers using MySQL Connector.
-
-
-## Extra-Credit Capabilities
-Our objective was to create a practical tool that faculty members could utilize. Among the implemented ideas, we developed a collaborative tool for faculty members within the same university. Although we intended to extend this tool to other universities, time constraints prevented us from doing so. To bring this idea to fruition, we completed the following tasks.
-* Data expansion :- We extended existing schema with a table that groups faculties with similar research interests. For building a cluster used KMEANS clustering.
-* Data Cleaning:- Initially, when we applied the clustering code on the existing research interest data, we were not satisfied with the resulting clusters. To improve the clustering outcome, we dedicated time to analyze the insignificant words in the research interests and proceeded to clean them before utilizing the clustering algorithm. By taking this extra step, we were able to enhance the accuracy and effectiveness of the clustering process.
-* Machine Learning :- Incorporating the concepts we acquired from the Text Information Systems course, namely the Term Frequency-Inverse Document Frequency (TFIDF) and K-Means clustering, we successfully clustered faculty members with similar research interests. The results of our analysis were nothing short of fascinating, as they were confirmed both through manual analysis and quantitative results, which were highly comparable. Despite recognizing that there is always room for further improvements, we were forced to conclude the project at this point due to the constraints of time.
-
-## Contributions 
-* Sudhendu Sharma (Roughly around about 30 hours)
-   * Implemented basic framework for Data Access Layer and proposed modular code base design
-     * Implemented mysql_utils.py, mongodb_utils.py, and neo4j_utils.py and integrated with database.
-   * Code Refactoring to accommodate various changes
-   * Implemented asynchronous framework using asyncio.
-   * Extension of existing database for extra credit capability 
-   * Data Cleaning 
-   * Using Machine Learning technique to group similar faculties
-   * Code and Query Optimization
-   * Wrote stored procedure but could not integrate with use case due to time constraints.
-   * Implementing prepared statements
-
-* Chih-Chieh Lai (Roughly 50~60 hours)
-  * Demo Video Recording
-  * Wrote README.md
-    * Overview
-    * Basic Information
-    * Installation
-    * Usage
-    * Design
-    * Implementation
-    * Database Techniques
-  * src/app_layout.py
-    * Defined and created the frontend layout
-  * src/app_widgets.py
-    * Created 7 widget classes to handle callback functions and implemented the logic for accessing the data access layer
-  * src/app.py
-    * Implemented argparse to enable command-line arguments and allowed the program to read a JSON configuration file
-    * Instantiated objects from the classes defined in app_widgets.py
-  * src/widget_interface.py
-    * Created several widget classess to exploit polymorphism.
-  * src/mysql_utils.py
-    * PublicationKeywordInterface class, functions and statements
-    * PublicationInterface class, functions and statements
-  * src/mongodb_utils.py
-    *  get_keyword_trend function
-  * src/neo4j_utils.py
-    *  get_similar_publication function
