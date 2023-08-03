@@ -96,7 +96,7 @@ Implementation:
 * Application layer comprises app_widget, app_layout, and app, using Dash components like dcc.Input, dcc.Graph, dash_table.DataTable, and dcc.Dropdown.
 * Callback functions update widgets with data from databases based on user inputs.
 
-[Demo](https://www.youtube.com/watch?v=dz1DilhuRcw)
+[DEMO](https://www.youtube.com/watch?v=dz1DilhuRcw)
 
 [README](https://github.com/CHIHCHIEH-LAI/Project-Portfolio-Collection/tree/main/Research-Topic-Explorer)
 
@@ -107,9 +107,9 @@ Key Skills: Python, MySQL, MongoDB, Neo4j, Dash, database, dashboard design, cla
 ### NBA Player Narrative Visualization
 The "NBA Players Visualization" project aims to create an interactive narrative visualization for NBA player contracts, offering valuable insights into player salaries and ratings. The visualization empowers users to explore the average salaries of NBA first-round drafted players based on their positions and analyze the relationship between salary and 2K rating for different positions and countries.
 
-[Demo](https://chihchieh-lai.github.io/)
+[DEMO](https://chihchieh-lai.github.io/)
 
-[Repo](https://github.com/CHIHCHIEH-LAI/NBA-Player-Narrative-Visualization-Drilldown-D3js)
+[REPO](https://github.com/CHIHCHIEH-LAI/NBA-Player-Narrative-Visualization-Drilldown-D3js)
 
 
 Key Skills: D3js, HTML, JavaScript, CSS, narrative visualization, front-end web development
@@ -152,7 +152,7 @@ Key Skills: Python, Flask, Docker, DockerHub, AWS EKS, http
 ### Face-Aging Image Generation with PyTorch and GANs
 The "Aging GAN" project trains a Generative Adversarial Network (GAN) from scratch to generate realistic aging faces. The GAN takes two inputs: a face image and the desired age (ranging from 20 to 70 years) and produces an output image of the face aged to the specified age.
 
-[Repo](https://github.com/CHIHCHIEH-LAI/Aging-GAN-PyTorch)
+[REPO](https://github.com/CHIHCHIEH-LAI/Aging-GAN-PyTorch)
 
 
 Key Skills: Python, PyTorch, Numpy, generative adversarial network, conditional GAN, vision transformer, deep learning
