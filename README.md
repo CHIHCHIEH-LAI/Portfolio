@@ -39,6 +39,7 @@ The "Gossip-Style Membership Protocol" project implements a membership protocol 
 
 The implementation follows a three-layer protocol stack: Application, P2P, and EmulNet layers. Grading using the ./Grade.sh script validates the protocol's performance in scenarios like single node failure, multiple node failures, and single node failure under a lossy network. The project showcases a robust and accurate gossip-style heartbeating membership protocol for distributed systems.
 
+[README](https://github.com/CHIHCHIEH-LAI/Project-Portfolio-Collection/tree/main/Gossip-Style-Heartbeating-Membership-Protocol)
 
 Key Skills: C++, gossip-style heartbeating membership protocol
 
