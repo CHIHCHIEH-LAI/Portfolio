@@ -37,10 +37,30 @@ Key Skills: C++, all-to-all heartbeating membership protocol
 
 ## Web Development
 ### Research Topic Explorer
+The "Research Topic Explorer" is an interactive web application designed to assist users in discovering research directions and relevant publications. It provides valuable guidance to users, whether they are exploring new research areas or searching for specific papers. The app also offers the functionality to find faculty members with similar research interests, promoting collaboration within the academic community.
+
+Features:
+
+* Explore relevant publications based on specific keywords of interest.
+* Determine research direction and identify potential areas for further exploration.
+* Find faculty members with similar research interests.
+* Interactive drop-down story structure for easy navigation.
+
+Implementation:
+
+* Utilizes Dash and other libraries to create declarative widgets and layouts.
+* Follows a three-layer architecture: database, data access, and application layers.
+* MySQL, MongoDB, and Neo4j servers store the data.
+* Data access layer uses utils classes as interfaces to query and update databases.
+* Application layer comprises app_widget, app_layout, and app, using Dash components like dcc.Input, dcc.Graph, dash_table.DataTable, and dcc.Dropdown.
+* Callback functions update widgets with data from databases based on user inputs.
+
+Key Skills: Python, MySQL, MongoDB, Neo4j, Dash, database, dashboard design, classic three-tier design
+
 ### NBA Player Narrative Visualization
 The "NBA Players Visualization" project aims to create an interactive narrative visualization for NBA player contracts, offering valuable insights into player salaries and ratings. The visualization empowers users to explore the average salaries of NBA first-round drafted players based on their positions and analyze the relationship between salary and 2K rating for different positions and countries.
 
-Key Skills: D3js, HTML, JavaScript, CSS, Narrative Visualization
+Key Skills: D3js, HTML, JavaScript, CSS, narrative visualization, front-end web development
 
 ## Amazon Web Service (AWS)
 ### 
