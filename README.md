@@ -104,6 +104,7 @@ Key Skills: D3js, HTML, JavaScript, CSS, narrative visualization, front-end web 
 
 This project builds a chatbot using AWS Lex and Lambda for calculating the shortest distance between two cities in a directed graph with unit-weight edges.
 
+[README](https://github.com/CHIHCHIEH-LAI/Project-Portfolio-Collection/tree/main/AWSLambda_Lex)
 
 Key Skills: PyThon, AWS Lambda, AWS Lex, serverless computing
 
