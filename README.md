@@ -15,6 +15,9 @@ Thank you for visiting my project showcase, and I hope you enjoy exploring these
 ### Fault-Tolerant Key-Value Store
 ### Gossip-Style Heartbeating Membership Protocol
 ### All To All Heartbeating Membership Protocol
+The "All-To-All Heartbeating Membership Protocol" project implements an all-to-all heartbeating membership protocol with requirements for complete and accurate failure detection in a distributed system. It follows a three-layer protocol stack, including the Application, P2P, and EmulNet layers. The P2P layer handles the protocol's main functionalities, such as introduction and membership management. The project is evaluated using the ./Grade.sh script, which tests its performance in various scenarios, including single and multiple node failures and lossy networks.
+
+[Link](https://github.com/CHIHCHIEH-LAI/Project-Portfolio-Collection/tree/main/All-To-All_Heartbeating_Membership_Protocol)
 
 ## Web Development
 ### Research Topic Explorer
