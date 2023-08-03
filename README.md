@@ -14,10 +14,20 @@ Thank you for visiting my project showcase, and I hope you enjoy exploring these
 ## Distributed Systems
 ### Fault-Tolerant Key-Value Store
 ### Gossip-Style Heartbeating Membership Protocol
-### All To All Heartbeating Membership Protocol
-The "All-To-All Heartbeating Membership Protocol" project implements an all-to-all heartbeating membership protocol with requirements for complete and accurate failure detection in a distributed system. It follows a three-layer protocol stack, including the Application, P2P, and EmulNet layers. The P2P layer handles the protocol's main functionalities, such as introduction and membership management. The project is evaluated using the ./Grade.sh script, which tests its performance in various scenarios, including single and multiple node failures and lossy networks.
+The "Gossip-Style Membership Protocol" project implements a membership protocol that ensures complete and accurate failure detection in a distributed system. The protocol achieves the following requirements:
 
-[Link](https://github.com/CHIHCHIEH-LAI/Project-Portfolio-Collection/tree/main/All-To-All_Heartbeating_Membership_Protocol)
+1. Completeness all the time: Every non-faulty process detects every node join, failure, and leave without missing any updates.
+2. Accuracy of failure detection: The protocol maintains high accuracy in failure detection even in the presence of message losses and small delays. It effectively handles simultaneous multiple failures.
+
+The implementation follows a three-layer protocol stack: Application, P2P, and EmulNet layers. Grading using the ./Grade.sh script validates the protocol's performance in scenarios like single node failure, multiple node failures, and single node failure under a lossy network. The project showcases a robust and accurate gossip-style heartbeating membership protocol for distributed systems.
+
+### All To All Heartbeating Membership Protocol
+The "All-To-All Heartbeating Membership Protocol" project project implements a membership protocol that ensures complete and accurate failure detection in a distributed system. The protocol achieves the following requirements:
+
+1. Completeness all the time: Every non-faulty process detects every node join, failure, and leave without missing any updates.
+2. Accuracy of failure detection: The protocol maintains high accuracy in failure detection even in the presence of message losses and small delays. It effectively handles simultaneous multiple failures.
+
+The implementation follows a three-layer protocol stack: Application, P2P, and EmulNet layers. Grading using the ./Grade.sh script validates the protocol's performance in scenarios like single node failure, multiple node failures, and single node failure under a lossy network. The project showcases a robust and accurate all-to-all heartbeating membership protocol for distributed systems.
 
 ## Web Development
 ### Research Topic Explorer
