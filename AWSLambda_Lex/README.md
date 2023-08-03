@@ -2,7 +2,7 @@
 1. Overview
 
 In this MP, we build a chatbot that returns the shortest distance between two cities/nodes in a directed graph, where all edges weigh 1.
-![MP3_AWSLambda_Lex/images/Diagram.jpg](https://github.com/CHIHCHIEH-LAI/CCA/blob/main/MP3_AWSLambda_Lex/images/Diagram.jpg)
+![MP3_AWSLambda_Lex/images/Diagram.jpg](https://github.com/CHIHCHIEH-LAI/Project-Portfolio-Collection/blob/main/AWSLambda_Lex/images/Diagram.jpg)
 
 2. Requirements
 
@@ -20,7 +20,7 @@ You need to write a program and create a POST REST API (using AWS API Gateway an
 ```
 Here, a directed edge goes from Chicago to Urbana, Urbana to Springfield, and Chicago to Lafayette. Your lambda function needs to parse this graph, compute the shortest distance using BFS (Breadth-First Search) between all vertices, and store this information in DynamoDB. If successful, return HTTP status code 200. Make sure you delete all items in the respective table of your database to avoid reading stale data.
 
-![MP3_AWSLambda_Lex/images/dynamodb_item.jpg](https://github.com/CHIHCHIEH-LAI/CCA/blob/main/MP3_AWSLambda_Lex/images/dynamodb_item.jpg)
+![MP3_AWSLambda_Lex/images/dynamodb_item.jpg](https://github.com/CHIHCHIEH-LAI/Project-Portfolio-Collection/blob/main/AWSLambda_Lex/images/dynamodb_item.jpg)
 Your solution should include a table in DynamoDB that will contain the source, destination, and distance attributes. While parsing the graph, your solution should populate this table with the locations and the distances between them. Your chatbot will retrieve these values in the next stage. The following AWS official documentation will help you get started with this:
 
 https://docs.aws.amazon.com/lambda/latest/dg/getting-started.html  
@@ -40,7 +40,7 @@ Note: The autograder uses the Python requests library to send a POST request.  O
 Cloudwatch is a valuable tool that lets you observe logs from your lambda function.
 
 3.2 AWS Lex: 
-![MP3_AWSLambda_Lex/images/lex_chatbot.jpg](https://github.com/CHIHCHIEH-LAI/CCA/blob/main/MP3_AWSLambda_Lex/images/lex_chatbot.jpg)
+![MP3_AWSLambda_Lex/images/lex_chatbot.jpg](https://github.com/CHIHCHIEH-LAI/Project-Portfolio-Collection/blob/main/AWSLambda_Lex/images/lex_chatbot.jpg)
 Important Note: Please use and follow AWS Lex V1 document and console to do the MP. Otherwise, you might get errors from the autograder.
 
 In this step, you need to create a chatbot using AWS Lex. Lex is an AWS service for building conversational interfaces for interactive voice and text applications. An excellent way to get started with Lex is to read Amazon's official documentation:
