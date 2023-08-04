@@ -40,7 +40,4 @@ To grade the implementation, use the `./Grade.sh` script provided. It tests the 
 
 The grader checks if all nodes joined the peer group correctly, if all nodes detected the failed node (completeness), and if the correct failed node was detected (accuracy). Configuration files representing each scenario can be found in the testcases folder.
 
-## Future Optimization
-To improve scalability, it is recommended to replace the all-to-all heartbeating with gossip heartbeating. This optimization can enhance the efficiency and performance of the membership protocol.
-
 Note: The provided code structure is designed to facilitate easy debugging, performance measurement, and future conversion to run over a real network.
