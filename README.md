@@ -11,6 +11,8 @@ As you browse through this showcase, I hope you find inspiration and insight int
 
 Thank you for visiting my project showcase, and I hope you enjoy exploring these projects as much as I enjoyed creating them!
 
+For recruiters and interviewees interested in delving deeper into the technical aspects of my projects, I am more than happy to share the code and project details during interviews. 
+
 ## Distributed Systems
 ### Fault-Tolerant Key-Value Store (currently working on)
 In this project, I will be building a fault-tolerant key-value store that supports CRUD operations (Create, Read, Update, Delete). The key-value store will also provide load-balancing using a consistent hashing ring to hash both servers and keys, and it will be fault-tolerant up to two failures.
