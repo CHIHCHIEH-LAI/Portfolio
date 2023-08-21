@@ -27,6 +27,24 @@ Features
 4. Quorum Consistency Level: Both read and write operations will follow a quorum consistency level, where at least two replicas are involved to ensure data consistency.
 5. Stabilization After Failure: The system will be capable of stabilizing after a failure by recreating the necessary replicas to maintain fault-tolerance.
 
+Testcase Scenarios
+- CREATE Test
+  -  Create 3 replicas of every key
+- DELETE Test
+  - Delete 3 replicas of every key
+  - Attempt delete of an invalid key
+- READ Test
+  - Read a key
+  -  Read a key after failing a replica
+  -  Read a key after failing two replicas
+  -  Read a key after failing a non-replica
+  -  Attempt read of an invalid key
+- UPDATE Test
+  - Update a key
+  - Update a key after failing a replica
+  - Update a key after failing two replicas
+  - Update a key after failing a non-replica
+  - Attempt update of an invalid key
 
 Key Skills: C++, key-value stores, replication control, load-balancing mechanisms, CRUD operations, leader election
 
