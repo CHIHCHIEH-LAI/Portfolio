@@ -31,8 +31,8 @@ To run the code, follow these steps:
 2. Execute ./Application testcases/<any_testcase> to start the simulation with the specified test case.
 3. The run logs can be found in the dbg.log file.
 
-## Grading the code
-To grade the implementation, use the `./Grade.sh` script provided. It tests the membership protocol implementation in three scenarios and grades each of them based on three separate metrics. The scenarios are as follows:
+## Testing the code
+To grade the implementation, use the `bash ./Tester.sh` script provided. It tests the membership protocol implementation in three scenarios and grades each of them based on three separate metrics. The scenarios are as follows:
 
 1. Single node failure
 2. Multiple node failure
