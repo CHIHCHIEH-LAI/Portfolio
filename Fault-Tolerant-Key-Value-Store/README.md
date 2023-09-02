@@ -18,7 +18,7 @@ The project is structured into three layers:
 2. **P2P Layer**: Comprising of the `MP1Node` (membership protocol) and the `MP2Node` (key-value store). The key-value store gets its membership list from the membership protocol and uses it to maintain its virtual ring view.
 3. **Application Layer**: Interacts with the P2P layer.
 
-![image](https://github.com/CHIHCHIEH-LAI/Fault-Tolerant-Key-Value-Store/blob/main/imgs/Architecture.jpg)
+![image](https://github.com/CHIHCHIEH-LAI/Portfolio/blob/main/Fault-Tolerant-Key-Value-Store/imgs/Architecture.jpg)
 
 Each node in the P2P layer is logically split into `MP1Node` and `MP2Node`. The key-value store communicates with the membership protocol to update its membership list and virtual ring.
 
