@@ -16,7 +16,7 @@ For recruiters and interviewees interested in delving deeper into the technical 
 
 ## Distributed Systems
 ### Fault-Tolerant Key-Value Store (currently working on)
-In this project, I will be building a fault-tolerant key-value store that supports CRUD operations (Create, Read, Update, Delete). The key-value store will also provide load-balancing using a consistent hashing ring to hash both servers and keys, and it will be fault-tolerant up to two failures.
+In this project, I've built a fault-tolerant key-value store that supports CRUD operations (Create, Read, Update, Delete). The key-value store will also provide load-balancing using a consistent hashing ring to hash both servers and keys, and it will be fault-tolerant up to two failures.
 
 The project is built upon the foundation of a Membership Protocol, which I have implemented. The project handles failure detection and maintains a dynamic view of the membership in the distributed system.
 
@@ -27,26 +27,7 @@ Features
 4. Quorum Consistency Level: Both read and write operations will follow a quorum consistency level, where at least two replicas are involved to ensure data consistency.
 5. Stabilization After Failure: The system will be capable of stabilizing after a failure by recreating the necessary replicas to maintain fault-tolerance.
 
-Testcase Scenarios
-- CREATE Test
-  -  Create 3 replicas of every key
-- DELETE Test
-  - Delete 3 replicas of every key
-  - Attempt delete of an invalid key
-- READ Test
-  - Read a key
-  -  Read a key after failing a replica
-  -  Read a key after failing two replicas
-  -  Read a key after failing a non-replica
-  -  Attempt read of an invalid key
-- UPDATE Test
-  - Update a key
-  - Update a key after failing a replica
-  - Update a key after failing two replicas
-  - Update a key after failing a non-replica
-  - Attempt update of an invalid key
-
-Key Skills: C++, key-value stores, replication control, load-balancing mechanisms, CRUD operations, leader election
+Key Skills: C++, key-value stores, replication control, load-balancing mechanisms, consistent hashing ring, CRUD operations
 
 ---
 
