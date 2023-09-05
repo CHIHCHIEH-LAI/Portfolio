@@ -11,8 +11,36 @@ As you browse through this showcase, I hope you find inspiration and insight int
 
 Thank you for visiting my project showcase, and I hope you enjoy exploring these projects as much as I enjoyed creating them!
 
-
 For recruiters and interviewees interested in delving deeper into the technical aspects of my projects, I am more than happy to share the code and project details during interviews. 
+
+## Skills
+- Distributed System
+  - C++
+  - Object-Oriented Design
+  - key-value store
+  - replication control
+  - consisten hashing ring
+  - membership protocol
+  - gossip heartbeating, all-to-all heartbeating
+- Web Development
+  - Python, D3js, HTML, JavaScript, CSS
+  - dashboard, dash
+  - three-tier design (application, data access and database layer)
+  - DBMS, MySQL,MongoDB, Neo4j
+- Amazon Web Service
+  - Python
+  - AWS computing, EC2, Lambda
+  - AWS storage, Aurora, DynamoDB, S3, ElasticCache
+  - Kubernetes, AWS EKS
+  - Docker, DockerHub
+  - Flask
+- Machine Learning
+  - Python
+  - Numpy, Pandas
+  - PyTorch
+  - scikit-learn
+  - Generative Adversarial Network, Transformer
+
 
 ## Distributed Systems
 ### Fault-Tolerant Key-Value Store (currently working on)
