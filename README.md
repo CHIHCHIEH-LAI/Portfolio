@@ -24,6 +24,7 @@ For recruiters and interviewees interested in delving deeper into the technical 
   - gossip heartbeating, all-to-all heartbeating
 - Web Development
   - Python, D3js, HTML, JavaScript, CSS
+  - Object-Oriented Design
   - dashboard, dash
   - three-tier design (application, data access and database layer)
   - DBMS, MySQL,MongoDB, Neo4j
