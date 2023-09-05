@@ -19,7 +19,7 @@ For recruiters and interviewees interested in delving deeper into the technical 
   - Object-Oriented Design
   - key-value store
   - replication control
-  - consisten hashing ring
+  - consistent hashing ring
   - membership protocol
   - gossip heartbeating, all-to-all heartbeating
 - Web Development
