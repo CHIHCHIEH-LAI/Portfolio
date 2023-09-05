@@ -27,7 +27,7 @@ For recruiters and interviewees interested in delving deeper into the technical 
   - Object-Oriented Design
   - dashboard, dash
   - three-tier design (application, data access and database layer)
-  - DBMS, MySQL,MongoDB, Neo4j
+  - DBMS, MySQL, MongoDB, Neo4j
 - Amazon Web Service
   - Python
   - AWS computing, EC2, Lambda
