@@ -20,7 +20,7 @@ For recruiters and interviewees interested in delving deeper into the technical 
   - All To All Heartbeating Membership Protocol
 - Web Development
   - Publication Explorer App with MySQL, MongoDB and Neo4j
-  - Elixir, PostgreSQL, and Phoenix - Employee Data Management API
+  - Elixir, PostgreSQL, and Phoenix - Employee Data Management RESTFul API
   - NBA Player Narrative Visualization
 - AWS
   - US City Distance Calculator Chatbot with AWS Lambda, Lex and DynamoDB
