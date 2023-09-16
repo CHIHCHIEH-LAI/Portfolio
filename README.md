@@ -13,7 +13,7 @@ Thank you for visiting my project showcase, and I hope you enjoy exploring these
 
 For recruiters and interviewees interested in delving deeper into the technical aspects of my projects, I am more than happy to share the code and project details during interviews. 
 
-## Lists
+## Project List
 - Distributed Systems Protocol
   - Fault-Tolerant Key-Value Store
   - Gossip-Style Heartbeating Membership Protocol
