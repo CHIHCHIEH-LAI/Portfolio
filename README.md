@@ -15,11 +15,11 @@ For recruiters and interviewees interested in delving deeper into the technical 
 
 ## Project List
 - Distributed Systems Protocol Implementation
-  - Fault-Tolerant Key-Value Store
-  - Gossip-Style Heartbeating Membership Protocol
-  - All To All Heartbeating Membership Protocol
+  - Fault-Tolerant Key-Value Store in C++
+  - Gossip-Style Heartbeating Membership Protocol in C++
+  - All To All Heartbeating Membership Protocol in C++
 - Web Development
-  - Publication Explorer App with MySQL, MongoDB and Neo4j
+  - Publication Explorer App with Dash, MySQL, MongoDB and Neo4j
   - Employee Data Management RESTFul API with Elixir, PostgreSQL, and Phoenix
   - NBA Player Narrative Visualization with D3js, html
 - AWS Applications
