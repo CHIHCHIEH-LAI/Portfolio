@@ -13,38 +13,24 @@ Thank you for visiting my project showcase, and I hope you enjoy exploring these
 
 For recruiters and interviewees interested in delving deeper into the technical aspects of my projects, I am more than happy to share the code and project details during interviews. 
 
-## Skills
-- Distributed System
-  - C++
-  - Object-Oriented Design
-  - key-value store
-  - replication control
-  - consistent hashing ring
-  - membership protocol
-  - gossip heartbeating, all-to-all heartbeating
+## Lists
+- Distributed Systems Protocol
+  - Fault-Tolerant Key-Value Store
+  - Gossip-Style Heartbeating Membership Protocol
+  - All To All Heartbeating Membership Protocol
 - Web Development
-  - Python, D3js, HTML, JavaScript, CSS
-  - Object-Oriented Design
-  - dashboard, dash
-  - three-tier design (application, data access and database layer)
-  - DBMS, MySQL, MongoDB, Neo4j
-- Amazon Web Service
-  - Python
-  - AWS computing, EC2, Lambda
-  - AWS storage, Aurora, DynamoDB, S3, ElasticCache
-  - Kubernetes, AWS EKS
-  - Docker, DockerHub
-  - Flask
-- Machine Learning
-  - Python
-  - Numpy, Pandas
-  - PyTorch
-  - scikit-learn
-  - Generative Adversarial Network, Transformer
-
+  - Publication Explorer App with MySQL, MongoDB and Neo4j
+  - Elixir, PostgreSQL, and Phoenix - Employee Data Management API
+  - NBA Player Narrative Visualization
+- AWS
+  - US City Distance Calculator Chatbot with AWS Lambda, Lex and DynamoDB
+  - AWS Storage Service with RDS, ElastiCache, and S3
+  - Deep Learning Web Service using AWS EKS and Docker
+- AI
+  - Face-Aging Image Generation with PyTorch and GANs
 
 ## Distributed Systems
-### Fault-Tolerant Key-Value Store (currently working on)
+### Fault-Tolerant Key-Value Store
 In this project, I've built a fault-tolerant key-value store that supports CRUD operations (Create, Read, Update, Delete). The key-value store will also provide load-balancing using a consistent hashing ring to hash both servers and keys, and it will be fault-tolerant up to two failures.
 
 The project is built upon the foundation of a Membership Protocol, which I have implemented. The project handles failure detection and maintains a dynamic view of the membership in the distributed system.
@@ -115,6 +101,13 @@ Implementation:
 Key Skills: Python, MySQL, MongoDB, Neo4j, Dash, database, dashboard design, classic three-tier design
 
 ---
+
+### Elixir, PostgreSQL, and Phoenix - Employee Data Management API
+The Payroll API is an Elixir Phoenix application that simplifies employee data management through a RESTful API. Key features include PostgreSQL integration, a user-friendly JSON-based interface, and the ability to create, retrieve, and delete employee records. 
+
+[REPO](https://github.com/CHIHCHIEH-LAI/payroll_api)
+
+Key skills: Elixir, PostgreSQL, Phoenix, RESTFul API
 
 ### NBA Player Narrative Visualization
 The "NBA Players Visualization" project aims to create an interactive narrative visualization for NBA player contracts, offering valuable insights into player salaries and ratings. The visualization empowers users to explore the average salaries of NBA first-round drafted players based on their positions and analyze the relationship between salary and 2K rating for different positions and countries.
