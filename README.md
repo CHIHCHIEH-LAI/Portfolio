@@ -14,20 +14,20 @@ Thank you for visiting my project showcase, and I hope you enjoy exploring these
 For recruiters and interviewees interested in delving deeper into the technical aspects of my projects, I am more than happy to share the code and project details during interviews. 
 
 ## Project List
-- Distributed Systems Protocol
+- Distributed Systems Protocol Implementation
   - Fault-Tolerant Key-Value Store
   - Gossip-Style Heartbeating Membership Protocol
   - All To All Heartbeating Membership Protocol
 - Web Development
   - Publication Explorer App with MySQL, MongoDB and Neo4j
-  - Elixir, PostgreSQL, and Phoenix - Employee Data Management RESTFul API
-  - NBA Player Narrative Visualization
-- AWS
+  - Employee Data Management RESTFul API with Elixir, PostgreSQL, and Phoenix
+  - NBA Player Narrative Visualization with D3js, html
+- AWS Applications
   - US City Distance Calculator Chatbot with AWS Lambda, Lex and DynamoDB
   - AWS Storage Service with RDS, ElastiCache, and S3
   - Deep Learning Web Service using AWS EKS and Docker
-- AI
-  - Face-Aging Image Generation with PyTorch and GANs
+- AI Applications
+  - Face-Aging Image Generation with PyTorch and generative adversarial network
 
 ## Distributed Systems
 ### Fault-Tolerant Key-Value Store
