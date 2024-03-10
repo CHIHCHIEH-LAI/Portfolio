@@ -22,9 +22,9 @@ For recruiters and interviewees interested in delving deeper into the technical 
   - Employee Data Management API (Elixir, PostgreSQL)
   - NBA Player Narrative Visualization (D3js, HTML, JavaScript, CSS, front-end web)
 - AWS Applications
-  - US City Distance Calculator Chatbot with AWS Lambda, Lex and DynamoDB
-  - AWS Storage Service with RDS, ElastiCache, and S3
-  - Deep Learning Web Service using AWS EKS and Docker
+  - US City Distance Calculator Chatbot (PyThon, AWS Lambda, AWS DynamoDB, AWS Lex, serverless computing)
+  - AWS Storage Service with RDS, ElastiCache, and S3 (Python, AWS RDS, AWS ElasticCache for Redis, AWS S3)
+  - Deep Learning Web Service (Python, Flask, Docker, DockerHub, AWS EKS)
 - ML/DL Applications
   -  CPU Performance Analysis and Prediction
   - Face-Aging Image Generation Model
@@ -117,24 +117,24 @@ Key Skills: D3js, HTML, JavaScript, CSS, front-end web
 
 ## Amazon Web Service (AWS)
 ### US City Distance Calculator Chatbot
+![image](https://github.com/CHIHCHIEH-LAI/Portfolio/blob/main/images/AWS_Chatbot.jpg)
 
-This project builds a chatbot using AWS Lex and Lambda for calculating the shortest distance between two cities in a directed graph with unit-weight edges.
+This project builds a chatbot that provides users with the shortest distance between two US cities in a directed graph with unit-weight edges.
 
 Key Skills: PyThon, AWS Lambda, AWS DynamoDB, AWS Lex, serverless computing
 
-### AWS Storage Service with RDS, ElastiCache, and S3
+### AWS Storage Service
+![image](https://github.com/CHIHCHIEH-LAI/Portfolio/blob/main/images/AWS_storage.jpg)
 
-The project aims to demonstrate the performance benefits of using AWS RDS, ElastiCache, and S3 to build a storage service with read and write APIs for a relational database. The architecture includes Amazon Aurora as the database, Amazon S3 for data storage, and a Redis cluster for caching. Lambda functions are used to implement the APIs.
+The project builds a storage service with read and write APIs for a relational database. The architecture includes Amazon Aurora as the database, Amazon S3 for data storage, and a Redis cluster for caching. Lambda functions are used to implement the APIs.
 
-Key Skills: Python, AWS RDS, AWS ElasticCache, AWS S3, SQL, serverless computing, caching
+Key Skills: Python, AWS RDS, AWS ElasticCache for Redis, AWS S3
 
----
+### Deep Learning Web Service
 
-### Deep Learning Web Service using AWS EKS and Docker
+This project sets up and manages infrastructure using Kubernetes and Docker containers to provide an online image classification service for the given project. The service will be exposed through a web server interface that receives HTTP requests and launches corresponding machine learning (ML) jobs using Kubernetes.
 
-This project set up and manage infrastructure using Kubernetes and Docker containers to provide an online image classification service for the given project. The service will be exposed through a web server interface that receives HTTP requests and launches corresponding machine learning (ML) jobs using Kubernetes.
-
-Key Skills: Python, Flask, Docker, DockerHub, AWS EKS, http
+Key Skills: Python, Flask, Docker, DockerHub, AWS EKS
 
 ---
 
