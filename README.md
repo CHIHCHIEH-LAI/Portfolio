@@ -92,8 +92,6 @@ Implementation:
 
 [DEMO](https://www.youtube.com/watch?v=dz1DilhuRcw)
 
-[README](https://github.com/CHIHCHIEH-LAI/Project-Portfolio-Collection/tree/main/Research-Topic-Explorer)
-
 Key Skills: Python, MySQL, MongoDB, Neo4j, Dash, database, dashboard design, classic three-tier design
 
 ---
