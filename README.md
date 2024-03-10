@@ -30,6 +30,8 @@ For recruiters and interviewers interested in delving deeper into the technical 
   - Face-Aging Image Generation Model (Python, PyTorch, Numpy, generative adversarial network (GAN))
   - Logo Generation Model (Python, PyTorch, Numpy, generative adversarial network (GAN))
   - Mango Tier Classifier (Python, scikit-learn)
+- Computer-Aided Design
+  - PCB Copper Component Optimization (C++)
  
 ## Skills
 - Programming Languages: C++, Python, Verilog
@@ -164,3 +166,10 @@ During my internship at Qualcomm, with the team designing the latest Snapdragon 
 Developed achine learning application to classify the quality of mangos
 
 Key Skills: Python, scikit-learn
+
+### Computer-Aided Design
+After manufacturing a batch of integrated circuits (ICs), they are soldered onto a Printed Circuit Board (PCB). Each IC is connected to a copper trace on the PCB. The geometry, placement, and orientation of these copper traces significantly influence the soldering performance. The objective was to optimize the geometry, placement, and orientation of the copper traces to enhance soldering efficiency and reliability.
+I achieved national top 3 in the Integrated Circuits Computer Aided Design Contest by developing a C++ application that optimizes the shapes, positions, and directions of components for PCB manufacturing.
+
+Key Skills: C++
+
