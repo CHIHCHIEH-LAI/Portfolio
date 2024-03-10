@@ -7,8 +7,6 @@ As you browse through this showcase, I hope you find inspiration and insight int
 
 Thank you for visiting my project showcase, and I hope you enjoy exploring these projects as much as I enjoyed creating them!
 
-For recruiters and interviewers interested in delving deeper into the technical aspects of my projects, I am more than happy to share the code and project details during interviews. 
-
 ## Project List
 - Quantitative Research
   - Automated Alpha Research Process (Alpha Research, Python, API Calling)
