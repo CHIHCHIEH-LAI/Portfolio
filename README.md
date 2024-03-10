@@ -116,13 +116,11 @@ The "NBA Players Visualization" project aims to create an interactive narrative 
 Key Skills: D3js, HTML, JavaScript, CSS, front-end web
 
 ## Amazon Web Service (AWS)
-### US City Distance Calculator Chatbot with AWS Lambda, Lex and DynamoDB
+### US City Distance Calculator Chatbot
 
 This project builds a chatbot using AWS Lex and Lambda for calculating the shortest distance between two cities in a directed graph with unit-weight edges.
 
 Key Skills: PyThon, AWS Lambda, AWS DynamoDB, AWS Lex, serverless computing
-
----
 
 ### AWS Storage Service with RDS, ElastiCache, and S3
 
