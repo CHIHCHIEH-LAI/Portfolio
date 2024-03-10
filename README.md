@@ -30,6 +30,13 @@ For recruiters and interviewers interested in delving deeper into the technical 
   - Face-Aging Image Generation Model (Python, PyTorch, Numpy, generative adversarial network (GAN))
   - Logo Generation Model (Python, PyTorch, Numpy, generative adversarial network (GAN))
   - Mango Tier Classifier (Python, scikit-learn)
+ 
+## Skills
+- Programming Languages: C++, Python, Verilog
+- Big Data: Hadoop/Spark MapReduce, PySpark, Apache Storm, MLLib
+- AI: PyTorch, scikit-learn
+- Cloud: AWS EC2, Lambda, DynamoDB, RDS, ElasticCache for Redis, S3
+- Architecture: distributed systems, CPU, FPGA, ASIC
 
 ## Quantitative Research
 ### Automated Alpha Research Process
