@@ -105,8 +105,6 @@ Implementation:
 * Application layer comprises app_widget, app_layout, and app, using Dash components like dcc.Input, dcc.Graph, dash_table.DataTable, and dcc.Dropdown.
 * Callback functions update widgets with data from databases based on user inputs.
 
-[DEMO](https://www.youtube.com/watch?v=dz1DilhuRcw)
-
 Key Skills: Python, MySQL, MongoDB, Neo4j, Dash
 
 ### Employee Data Management API
