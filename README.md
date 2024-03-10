@@ -18,9 +18,9 @@ For recruiters and interviewees interested in delving deeper into the technical 
   - Fault-Tolerant Key-Value Store (C++, distributed systems, key-value stores, replication control, load-balancing mechanisms, consistent hashing ring)
 - Web Development
   - Trip Plan Management App (Python, FastAPI, Redis Caching)
-  - Publication Explorer App
-  - Employee Data Management RESTFul API
-  - NBA Player Narrative Visualization
+  - Publication Explorer App (Python, MySQL, MongoDB, Neo4j, Dash)
+  - Employee Data Management API (Elixir, PostgreSQL)
+  - NBA Player Narrative Visualization (D3js, HTML, JavaScript, CSS, front-end web)
 - AWS Applications
   - US City Distance Calculator Chatbot with AWS Lambda, Lex and DynamoDB
   - AWS Storage Service with RDS, ElastiCache, and S3
@@ -76,8 +76,7 @@ Key Skills: C++, distributed systems, key-value stores, replication control, loa
 
 Key Skills: Python, FastAPI, Redis Caching
 
-
-### Publication Explorer App with MySQL, MongoDB and Neo4j
+### Publication Explorer App
 The "Research Topic Explorer" is an interactive web application designed to assist users in discovering research directions and relevant publications. It provides valuable guidance to users, whether they are exploring new research areas or searching for specific papers. The app also offers the functionality to find faculty members with similar research interests, promoting collaboration within the academic community.
 
 Features:
@@ -98,16 +97,14 @@ Implementation:
 
 [DEMO](https://www.youtube.com/watch?v=dz1DilhuRcw)
 
-Key Skills: Python, MySQL, MongoDB, Neo4j, Dash, database, dashboard design, classic three-tier design
+Key Skills: Python, MySQL, MongoDB, Neo4j, Dash
 
----
-
-### Elixir, PostgreSQL, and Phoenix - Employee Data Management API
+### Employee Data Management API
 The Payroll API is an Elixir Phoenix application that simplifies employee data management through a RESTful API. Key features include PostgreSQL integration, a user-friendly JSON-based interface, and the ability to create, retrieve, and delete employee records. 
 
 [REPO](https://github.com/CHIHCHIEH-LAI/payroll_api)
 
-Key skills: Elixir, PostgreSQL, Phoenix, RESTFul API
+Key skills: Elixir, PostgreSQL
 
 ### NBA Player Narrative Visualization
 The "NBA Players Visualization" project aims to create an interactive narrative visualization for NBA player contracts, offering valuable insights into player salaries and ratings. The visualization empowers users to explore the average salaries of NBA first-round drafted players based on their positions and analyze the relationship between salary and 2K rating for different positions and countries.
@@ -117,9 +114,7 @@ The "NBA Players Visualization" project aims to create an interactive narrative 
 [REPO](https://github.com/CHIHCHIEH-LAI/NBA-Player-Narrative-Visualization-Drilldown-D3js)
 
 
-Key Skills: D3js, HTML, JavaScript, CSS, narrative visualization, front-end web development
-
----
+Key Skills: D3js, HTML, JavaScript, CSS, front-end web
 
 ## Amazon Web Service (AWS)
 ### US City Distance Calculator Chatbot with AWS Lambda, Lex and DynamoDB
