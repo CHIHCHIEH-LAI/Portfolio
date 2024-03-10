@@ -26,9 +26,10 @@ For recruiters and interviewees interested in delving deeper into the technical 
   - AWS Storage Service with RDS, ElastiCache, and S3 (Python, AWS RDS, AWS ElasticCache for Redis, AWS S3)
   - Deep Learning Web Service (Python, Flask, Docker, DockerHub, AWS EKS)
 - ML/DL Applications
-  -  CPU Performance Analysis and Prediction
-  - Face-Aging Image Generation Model
-  - Mango Tier Classifier
+  - CPU Performance Analysis and Prediction
+  - Face-Aging Image Generation Model (Python, PyTorch, Numpy, generative adversarial network (GAN))
+  - Logo Generation Model (Python, PyTorch, Numpy, generative adversarial network (GAN))
+  - Mango Tier Classifier (Python, scikit-learn)
 
 ## Quantitative Research
 ### Automated Alpha Research Process
@@ -136,15 +137,23 @@ This project sets up and manages infrastructure using Kubernetes and Docker cont
 
 Key Skills: Python, Flask, Docker, DockerHub, AWS EKS
 
----
-
-## Artificial Intelligence (AI/ML/DL)
-### Face-Aging Image Generation with PyTorch and GANs
-The "Aging GAN" project trains a Generative Adversarial Network (GAN) from scratch to generate realistic aging faces. The GAN takes two inputs: a face image and the desired age (ranging from 20 to 70 years) and produces an output image of the face aged to the specified age.
+## ML/DL Applications
+### Face-Aging Image Generation Model
+The "Aging GAN" project trains a Generative Adversarial Network (GAN) to generate realistic aging faces. The GAN takes two inputs: a face image and the desired age (ranging from 20 to 70 years) and produces an output image of the face aged to the specified age.
 
 [REPO](https://github.com/CHIHCHIEH-LAI/Aging-GAN-PyTorch)
 
+Key Skills: Python, PyTorch, Numpy, generative adversarial network (GAN)
 
-Key Skills: Python, PyTorch, Numpy, generative adversarial network (GAN), conditional GAN, vision transformer, deep learning
+### Logo Generation Model
+Trained a deep learning model to generate new logos
 
----
+Key Skills: Python, PyTorch, Numpy, generative adversarial network (GAN)
+
+### CPU Performance Analysis and Prediction
+During my internship at Qualcomm, with the team designing the latest Snapdragon CPUs, I was assigned to create machine learning models to analyze and predict CPU performance.
+
+### Mango Tier Classifier
+Developed achine learning application to classify the quality of mangos
+
+Key Skills: Python, scikit-learn
