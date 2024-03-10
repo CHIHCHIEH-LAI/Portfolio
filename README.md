@@ -1,7 +1,7 @@
 # Project Portfolio Collection
 
 ## Description
-Welcome to my project showcase repository! This repository is a curated collection of my previous projects, where I aim to provide an overview of the projects without disclosing any code due to academic integrity guidelines or non-disclosure agreement.
+Welcome to my project showcase repository! This repository is a curated collection of my previous projects, where I aim to provide an overview of the projects without disclosing any code due to academic integrity guidelines or non-disclosure agreements.
 
 As you browse through this showcase, I hope you find inspiration and insight into my problem-solving approach and how I leverage technology to create meaningful solutions. If you have any questions or would like to connect, feel free to reach out to me.
 
@@ -10,63 +10,73 @@ Thank you for visiting my project showcase, and I hope you enjoy exploring these
 For recruiters and interviewees interested in delving deeper into the technical aspects of my projects, I am more than happy to share the code and project details during interviews. 
 
 ## Project List
-- Distributed Systems Protocol Implementation
-  - Fault-Tolerant Key-Value Store in C++
-  - Gossip-Style Heartbeating Membership Protocol in C++
-  - All To All Heartbeating Membership Protocol in C++
+- Quantitative Research
+  - Automated Alpha Research Process (Alpha Research, Python, API Calling)
+- Distributed Systems
+  - Gossip-Style Heartbeating Membership Protocol (C++, distributed systems, membership protocol)
+  - All To All Heartbeating Membership Protocol (C++, distributed systems, membership protocol)
+  - Fault-Tolerant Key-Value Store (C++, distributed systems, key-value stores, replication control, load-balancing mechanisms, consistent hashing ring)
 - Web Development
-  - Publication Explorer App with Dash, MySQL, MongoDB and Neo4j
-  - Employee Data Management RESTFul API with Elixir, PostgreSQL, and Phoenix
-  - NBA Player Narrative Visualization with D3js, html
+  - Trip Plan Management App (Python, FastAPI, Redis Caching)
+  - Publication Explorer App
+  - Employee Data Management RESTFul API
+  - NBA Player Narrative Visualization
 - AWS Applications
   - US City Distance Calculator Chatbot with AWS Lambda, Lex and DynamoDB
   - AWS Storage Service with RDS, ElastiCache, and S3
   - Deep Learning Web Service using AWS EKS and Docker
-- AI Applications
-  - Face-Aging Image Generation with PyTorch and generative adversarial network
+- ML/DL Applications
+  -  CPU Performance Analysis and Prediction
+  - Face-Aging Image Generation Model
+  - Mango Tier Classifier
+
+## Quantitative Research
+### Automated Alpha Research Process
+As a WorldQuant Research Consultant, I leverage WorldQuant simluation platform to build alphas. By leveraging WorldQuant simulation platform APIs, I develop automated alpha research process including alpha signal discovery, optimization and backtesting.
+
+Key Skills: Alpha Research, Python, API Calling
 
 ## Distributed Systems
-### Fault-Tolerant Key-Value Store
-In this project, I've built a fault-tolerant key-value store that supports CRUD operations (Create, Read, Update, Delete). The key-value store will also provide load-balancing using a consistent hashing ring to hash both servers and keys, and it will be fault-tolerant up to two failures.
+### Gossip-Style Heartbeating Membership Protocol
+In distributed systems, nodes or members might join, fail and leave systems, and membership protocol is a mechanism used to keep track of the members that are currently part of the system or operational. And heartbeating is used for detecting whether a member is operational. Gossip heartbeating is highly scalable and fault-tolerant, making it suitable for large distributed systems. The "Gossip Heartbeating Membership Protocol" project project implements a membership protocol that ensures complete and accurate failure detection in a distributed system. The protocol achieves the following requirements:
 
-The project is built upon the foundation of a Membership Protocol, which I have implemented. The project handles failure detection and maintains a dynamic view of the membership in the distributed system.
+1. Completeness all the time: Every non-faulty process detects every node join, failure, and leave without missing any updates.
+2. Accuracy of failure detection: The protocol maintains high accuracy in failure detection even in the presence of message losses and small delays. It effectively handles simultaneous multiple failures.
+
+The protocol implementation follows a three-layer protocol stack, containing application layer, P2P layer and emulated network layer. The application layer drives the simulation and is responsible for launching and crashing nodes. The emulated network layer emulates the network environment for the membership protocol, which provides functions that the membership protocol can use to send and receives messages. The P2P layer is responsible for implementing the main logic of the membership protocol. I implemented the gossip heartbeating membership protocol for the P2P layer in C++.
+
+Key Skills: C++, distributed systems, membership protocol
+
+### All To All Heartbeating Membership Protocol
+In distributed systems, nodes or members might join, fail and leave systems, and membership protocol is a mechanism used to keep track of the members that are currently part of the system or operational. And heartbeating is used for detecting whether a member is operational. The "All-To-All Heartbeating Membership Protocol" project project implements a membership protocol that ensures complete and accurate failure detection in a distributed system. The protocol achieves the following requirements:
+
+1. Completeness all the time: Every non-faulty process detects every node join, failure, and leave without missing any updates.
+2. Accuracy of failure detection: The protocol maintains high accuracy in failure detection even in the presence of message losses and small delays. It effectively handles simultaneous multiple failures.
+
+The protocol implementation follows a three-layer protocol stack, containing application layer, P2P layer and emulated network layer. The application layer drives the simulation and is responsible for launching and crashing nodes. The emulated network layer emulates the network environment for the membership protocol, which provides functions that the membership protocol can use to send and receives messages. The P2P layer is responsible for implementing the main logic of the membership protocol. I implemented the all-to-all heartbeating membership protocol for the P2P layer in C++.
+
+Key Skills: C++, distributed systems, membership protocol
+
+### Fault-Tolerant Key-Value Store 
+This project is built upon the membership protocol project. Each node in the P2P layer is logically split into membership protocol part and key-value store part. The key-value store communicates with the membership protocol to update its membership list and virtual consistent hashing ring. I've implemented a resilient key-value store with support for CRUD operations (Create, Read, Update, Delete). The key-value store will also provide load-balancing using a consistent hashing ring to hash both servers and keys, and it will be fault-tolerant up to two failures.
 
 Features
 1. CRUD Operations: The key-value store will support Create, Read, Update, and Delete operations, allowing users to store and manage data efficiently.
 2. Load-Balancing: Load-balancing will be achieved through a consistent hashing ring that efficiently distributes keys and servers, ensuring a balanced distribution of data across the system.
 3. Fault-Tolerance: The system will be able to tolerate up to two failures. To achieve fault-tolerance, each key will be replicated three times and stored on three successive nodes in the ring, starting from the first node at or to the clockwise of the hashed key.
-4. Quorum Consistency Level: Both read and write operations will follow a quorum consistency level, where at least two replicas are involved to ensure data consistency.
-5. Stabilization After Failure: The system will be capable of stabilizing after a failure by recreating the necessary replicas to maintain fault-tolerance.
+4. Stabilization After Failure: The system will be capable of stabilizing after a failure by recreating the necessary replicas to maintain fault-tolerance.
 
-Key Skills: C++, key-value stores, replication control, load-balancing mechanisms, consistent hashing ring, CRUD operations
-
----
-
-### Gossip-Style Heartbeating Membership Protocol
-The "Gossip-Style Membership Protocol" project implements a membership protocol that ensures complete and accurate failure detection in a distributed system. The protocol achieves the following requirements:
-
-1. Completeness all the time: Every non-faulty process detects every node join, failure, and leave without missing any updates.
-2. Accuracy of failure detection: The protocol maintains high accuracy in failure detection even in the presence of message losses and small delays. It effectively handles simultaneous multiple failures.
-
-The implementation follows a three-layer protocol stack: Application, P2P, and EmulNet layers. Grading using the ./Grade.sh script validates the protocol's performance in scenarios like single node failure, multiple node failures, and single node failure under a lossy network. The project showcases a robust and accurate gossip-style heartbeating membership protocol for distributed systems.
-
-Key Skills: C++, gossip-style heartbeating membership protocol
-
----
-
-### All To All Heartbeating Membership Protocol
-The "All-To-All Heartbeating Membership Protocol" project project implements a membership protocol that ensures complete and accurate failure detection in a distributed system. The protocol achieves the following requirements:
-
-1. Completeness all the time: Every non-faulty process detects every node join, failure, and leave without missing any updates.
-2. Accuracy of failure detection: The protocol maintains high accuracy in failure detection even in the presence of message losses and small delays. It effectively handles simultaneous multiple failures.
-
-The implementation follows a three-layer protocol stack: Application, P2P, and EmulNet layers. Grading using the ./Grade.sh script validates the protocol's performance in scenarios like single node failure, multiple node failures, and single node failure under a lossy network. The project showcases a robust and accurate all-to-all heartbeating membership protocol for distributed systems.
-
-Key Skills: C++, all-to-all heartbeating membership protocol
-
----
+Key Skills: C++, distributed systems, key-value stores, replication control, load-balancing mechanisms, consistent hashing ring
 
 ## Web Development
+### Trip Plan Management App
+- I’m working on a trip plan management that will allow users to manage, download and share their travel plans.
+- Until now, the application supports creating, deleting, updating, and retrieving travel plans and it has the ability to download trip details in ics file format. 
+- I am working on the logic of allowing users to exchange travel plans.
+
+Key Skills: Python, FastAPI, Redis Caching
+
+
 ### Publication Explorer App with MySQL, MongoDB and Neo4j
 The "Research Topic Explorer" is an interactive web application designed to assist users in discovering research directions and relevant publications. It provides valuable guidance to users, whether they are exploring new research areas or searching for specific papers. The app also offers the functionality to find faculty members with similar research interests, promoting collaboration within the academic community.
 
