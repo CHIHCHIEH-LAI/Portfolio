@@ -30,6 +30,8 @@ Thank you for visiting my project showcase, and I hope you enjoy exploring these
   - Mango Tier Classifier (Python, scikit-learn)
 - Computer-Aided Design
   - PCB Copper Component Optimization (C++)
+- Android Development
+  - City Information App (Java, Android App)
  
 ## Skills
 - Programming Languages: C++, Python, Verilog
@@ -165,9 +167,23 @@ Developed achine learning application to classify the quality of mangos
 
 Key Skills: Python, scikit-learn
 
-### Computer-Aided Design
+## Computer-Aided Design
+### PCB Copper Component Optimization
 After manufacturing a batch of integrated circuits (ICs), they are soldered onto a Printed Circuit Board (PCB). Each IC is connected to a copper trace on the PCB. The geometry, placement, and orientation of these copper traces significantly influence the soldering performance. The objective was to optimize the geometry, placement, and orientation of the copper traces to enhance soldering efficiency and reliability.
 I achieved national top 3 in the Integrated Circuits Computer Aided Design Contest by developing a C++ application that optimizes the shapes, positions, and directions of components for PCB manufacturing.
 
 Key Skills: C++
+
+## Android App
+### City Information App
+The app lets the users add cities to a list and show them to the users. Upon clicking on each city in the list, the app prints a welcome message containing the name of the selected city, along with options for the user to see more details about the weather and mapp of the city of interest. 
+
+Feature:
+- user login and authentication: Each user is able to create and log into an account to see the added cities of interest
+- ability to add or remove cities to the list
+- customized UI for different users
+- showing weather information for each location
+- showing the map of each location
+
+Skills: Java, Android App
 
