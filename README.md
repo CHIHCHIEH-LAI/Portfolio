@@ -148,7 +148,7 @@ Key Skills: Python, Flask, Docker, DockerHub, AWS EKS
 
 ## ML/DL Applications
 ### Face-Aging Image Generation Model
-Generative modeling is unsupervised and consists of two sub-models, the generator and the discriminator. The former generate new examples, while the latter tries to determine whether examples are real or fake. The two sub-models are trained and compete with each other until the generator model outperform the discriminator model and is able to generate examples that the discriminator is not able to classify. Eventually, we will get a well-performed generator that we can use to generate new examples.
+Generative modeling consists of two sub-models, the generator and the discriminator. The former generate new examples, while the latter tries to determine whether examples are real or fake. The two sub-models are trained and compete with each other until the generator model outperform the discriminator model and is able to generate examples that the discriminator is not able to classify. Eventually, we will get a well-performed generator that we can use to generate new examples.
 
 The "Aging GAN" project trains a Generative Adversarial Network (GAN) to generate realistic aging faces. The GAN takes two inputs: a face image and the desired age (ranging from 20 to 70 years) and produces an output image of the face aged to the specified age.
 
