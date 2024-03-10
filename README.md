@@ -113,7 +113,6 @@ The "NBA Players Visualization" project aims to create an interactive narrative 
 
 [REPO](https://github.com/CHIHCHIEH-LAI/NBA-Player-Narrative-Visualization-Drilldown-D3js)
 
-
 Key Skills: D3js, HTML, JavaScript, CSS, front-end web
 
 ## Amazon Web Service (AWS)
