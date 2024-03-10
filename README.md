@@ -15,7 +15,7 @@ Thank you for visiting my project showcase, and I hope you enjoy exploring these
   - All To All Heartbeating Membership Protocol (C++, distributed systems, membership protocol)
   - Fault-Tolerant Key-Value Store (C++, distributed systems, key-value stores, replication control, load-balancing mechanisms, consistent hashing ring)
 - Web Development
-  - Trip Plan Management App (Python, FastAPI, Redis Caching)
+  - Trip Plan Management App (Python, FastAPI, MongoDB, Redis Caching)
   - Publication Explorer App (Python, MySQL, MongoDB, Neo4j, Dash)
   - Employee Data Management API (Elixir, PostgreSQL)
   - NBA Player Narrative Visualization (D3js, HTML, JavaScript, CSS, front-end web)
@@ -84,7 +84,7 @@ Key Skills: C++, distributed systems, key-value stores, replication control, loa
 - Until now, the application supports creating, deleting, updating, and retrieving travel plans and it has the ability to download trip details in ics file format. 
 - I am working on the logic of allowing users to exchange travel plans.
 
-Key Skills: Python, FastAPI, Redis Caching
+Key Skills: Python, FastAPI, MongoDB, Redis Caching
 
 ### Publication Explorer App
 The "Research Topic Explorer" is an interactive web application designed to assist users in discovering research directions and relevant publications. It provides valuable guidance to users, whether they are exploring new research areas or searching for specific papers. The app also offers the functionality to find faculty members with similar research interests, promoting collaboration within the academic community.
