@@ -149,14 +149,13 @@ The project builds a storage service with read and write APIs for a relational d
 Key Skills: Python, AWS RDS, AWS ElasticCache for Redis, AWS S3
 
 ### Deep Learning Web Service
-
 This project sets up and manages infrastructure using Kubernetes and Docker containers to provide an online image classification service for the given project. The service will be exposed through a web server interface that receives HTTP requests and launches corresponding machine learning (ML) jobs using Kubernetes.
 
 Key Skills: Python, Flask, Docker, DockerHub, AWS EKS
 
 ## ML/DL Applications
 ### Face-Aging Image Generation Model
-Generative modeling consists of two sub-models, the generator and the discriminator. The former generate new examples, while the latter tries to determine whether examples are real or fake. The two sub-models are trained and compete with each other until the generator model outperform the discriminator model and is able to generate examples that the discriminator is not able to classify. Eventually, we will get a well-performed generator that we can use to generate new examples.
+Generative Adversarial Network (GAN) is a type of artificial intelligence framework. GANs are composed of two neural networks, namely the generator and the discriminator. The former generate new examples, while the latter tries to determine whether examples are real or fake. The two sub-models are trained and compete with each other until the generator model outperform the discriminator model and is able to generate examples that the discriminator is not able to classify. Eventually, we will get a well-performed generator that we can use to generate new examples.
 
 The "Aging GAN" project trains a Generative Adversarial Network (GAN) to generate realistic aging faces. The GAN takes two inputs: a face image and the desired age (ranging from 20 to 70 years) and produces an output image of the face aged to the specified age.
 
@@ -173,13 +172,14 @@ Key Skills: Python, PyTorch, Numpy, generative adversarial network (GAN)
 During my internship at Qualcomm, with the team designing the latest Snapdragon CPUs, I was assigned to create machine learning models to analyze and predict CPU performance.
 
 ### Mango Tier Classifier
-Developed achine learning application to classify the quality of mangos
+Developed machine learning application to classify the quality of mangos.
 
 Key Skills: Python, scikit-learn
 
 ## Computer-Aided Design
 ### PCB Copper Component Optimization
 After manufacturing a batch of integrated circuits (ICs), they are soldered onto a Printed Circuit Board (PCB). Each IC is connected to a copper trace on the PCB. The geometry, placement, and orientation of these copper traces significantly influence the soldering performance. The objective was to optimize the geometry, placement, and orientation of the copper traces to enhance soldering efficiency and reliability.
+
 I achieved national top 3 in the Integrated Circuits Computer Aided Design Contest by developing a C++ application that optimizes the shapes, positions, and directions of components for PCB manufacturing.
 
 Key Skills: C++
