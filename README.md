@@ -68,6 +68,12 @@ The protocol implementation follows a three-layer protocol stack, containing app
 Key Skills: C++, distributed systems, membership protocol
 
 ### Fault-Tolerant Key-Value Store 
+A key-value store is a type of NoSQL (Not Only SQL) database that uses a simple key-value method to store data. In this type of database, data is stored as a collection of key-value pairs. Each key is unique and is used to retrieve the corresponding value. Key-value stores are typically optimized for high performance and scalability, making them suitable for applications where fast and efficient data access is crucial.
+
+Key-value stores are often used in scenarios where data is relatively simple and doesn't require complex querying capabilities. They are commonly used for caching, session management, user profile data, and distributed systems.
+
+Examples of key-value stores include Redis, Amazon DynamoDB, Apache Cassandra, Riak, and Berkeley DB. These systems offer various features such as high availability, scalability, and data replication to ensure reliability and performance.
+
 This project is built upon the membership protocol project. Each node in the P2P layer is logically split into membership protocol part and key-value store part. The key-value store communicates with the membership protocol to update its membership list and virtual consistent hashing ring. I've implemented a resilient key-value store with support for CRUD operations (Create, Read, Update, Delete). The key-value store will also provide load-balancing using a consistent hashing ring to hash both servers and keys, and it will be fault-tolerant up to two failures.
 
 Features
