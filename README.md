@@ -48,7 +48,7 @@ Key Skills: Alpha Research, Python, API Calling
 
 ## Distributed Systems
 ### Gossip-Style Heartbeating Membership Protocol
-In distributed systems, nodes or members might join, fail and leave systems, and membership protocol is a mechanism used to keep track of the members that are currently part of the system or operational. And heartbeating is used for detecting whether a member is operational. Gossip heartbeating is highly scalable and fault-tolerant, making it suitable for large distributed systems. The "Gossip Heartbeating Membership Protocol" project project implements a membership protocol that ensures complete and accurate failure detection in a distributed system. The protocol achieves the following requirements:
+In distributed systems, nodes or members might join, fail and leave systems, and membership protocol is a mechanism used to keep track of the members that are currently part of the system or operational. And heartbeating is used for detecting whether a member is operational. Gossip heartbeating is highly scalable and fault-tolerant, making it suitable for large distributed systems. The "Gossip Heartbeating Membership Protocol" project implements a membership protocol that ensures complete and accurate failure detection in a distributed system. The protocol achieves the following requirements:
 
 1. Completeness all the time: Every non-faulty process detects every node join, failure, and leave without missing any updates.
 2. Accuracy of failure detection: The protocol maintains high accuracy in failure detection even in the presence of message losses and small delays. It effectively handles simultaneous multiple failures.
