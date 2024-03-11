@@ -89,6 +89,8 @@ Key Skills: C++, distributed systems, key-value stores, replication control, loa
 Key Skills: Python, FastAPI, MongoDB, Redis Caching
 
 ### Publication Explorer App
+![image](https://github.com/CHIHCHIEH-LAI/Portfolio/blob/main/images/research_explorer.jpg)
+
 The "Research Topic Explorer" is an interactive web application designed to assist users in discovering research directions and relevant publications. It provides valuable guidance to users, whether they are exploring new research areas or searching for specific papers. The app also offers the functionality to find faculty members with similar research interests, promoting collaboration within the academic community.
 
 Features:
