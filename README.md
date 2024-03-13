@@ -42,6 +42,7 @@ Thank you for visiting my project showcase, and I hope you enjoy exploring these
 
 ## Quantitative Research
 ### Automated Alpha Research Process
+In finance, alpha is a measure of an investment's performance relative to a benchmark index. It represents the excess return of an investment relative to the return of a benchmark index. 
 As a WorldQuant Research Consultant, I leverage WorldQuant simluation platform to build alphas. By leveraging WorldQuant simulation platform APIs, I develop automated alpha research process including alpha signal discovery, optimization and backtesting.
 
 Key Skills: Alpha Research, Python, API Calling
