@@ -42,6 +42,8 @@ Thank you for visiting my project showcase, and I hope you enjoy exploring these
 
 ## Quantitative Research
 ### Automated Alpha Research Process
+Alpha is a term used in investing to decribe an investment strategy's ability to beat the market. It is also often refered to the excess return on an investment in relation to a benchmark.
+
 As a WorldQuant Research Consultant, I leverage WorldQuant simluation platform to build alphas. By leveraging WorldQuant simulation platform APIs, I develop automated alpha research process including alpha signal discovery, optimization and backtesting.
 
 Key Skills: Alpha Research, Python, API Calling
