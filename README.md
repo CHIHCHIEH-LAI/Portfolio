@@ -73,15 +73,17 @@ A key-value store is a type of NoSQL (Not Only SQL) database that uses a simple 
 
 Key-value stores are often used in scenarios where data is relatively simple and doesn't require complex querying capabilities. They are commonly used for caching, session management, user profile data, and distributed systems.
 
-Examples of key-value stores include Redis, Amazon DynamoDB, Apache Cassandra, Riak, and Berkeley DB. These systems offer various features such as high availability, scalability, and data replication to ensure reliability and performance.
+Examples of key-value stores include Redis, Amazon DynamoDB, LinkedIn Voldemort, Apache Cassandra, Riak. These systems offer various features such as high availability, scalability, and data replication to ensure reliability and performance.
 
-This project is built upon the membership protocol project. Each node in the P2P layer is logically split into membership protocol part and key-value store part. The key-value store communicates with the membership protocol to update its membership list and virtual consistent hashing ring. I've implemented a resilient key-value store with support for CRUD operations (Create, Read, Update, Delete). The key-value store will also provide load-balancing using a consistent hashing ring to hash both servers and keys, and it will be fault-tolerant up to two failures.
+This project is built upon the membership protocol project. I've implemented a resilient key-value store with support for CRUD operations, load-balancing, and fault tolerance up to 2 failures.
 
 Features
 1. CRUD Operations: The key-value store will support Create, Read, Update, and Delete operations, allowing users to store and manage data efficiently.
 2. Load-Balancing: Load-balancing will be achieved through a consistent hashing ring that efficiently distributes keys and servers, ensuring a balanced distribution of data across the system.
 3. Fault-Tolerance: The system will be able to tolerate up to two failures. To achieve fault-tolerance, each key will be replicated three times and stored on three successive nodes in the ring, starting from the first node at or to the clockwise of the hashed key.
 4. Stabilization After Failure: The system will be capable of stabilizing after a failure by recreating the necessary replicas to maintain fault-tolerance.
+
+The protocol implementation follows a three-layer protocol stack, containing application layer, P2P layer and emulated network layer. The application layer drives the simulation and is responsible for launching and crashing nodes. The emulated network layer emulates the network environment for the membership protocol, which provides functions that the membership protocol can use to send and receives messages. I implemented the key-value store for the P2P layer in C++.
 
 Key Skills: C++, distributed systems, key-value stores, replication control, load-balancing mechanisms, consistent hashing ring
 
