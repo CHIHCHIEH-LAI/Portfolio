@@ -45,7 +45,7 @@ Thank you for visiting my project showcase, and I hope you enjoy exploring these
 In finance, alpha is a measure of an investment's performance relative to a benchmark index. It represents the excess return of an investment relative to the return of a benchmark index. 
 As a WorldQuant Research Consultant, I leverage WorldQuant simluation platform to build alphas. By leveraging WorldQuant simulation platform APIs, I develop automated alpha research process including alpha signal discovery, optimization and backtesting.
 
-Key Skills: Alpha Research, Python, API Calling
+Key Skills: Alpha Research, Python, API Calling, Optimization
 
 ## Distributed Systems
 ### Gossip-Style Heartbeating Membership Protocol
@@ -185,7 +185,7 @@ After manufacturing a batch of integrated circuits (ICs), they are soldered onto
 
 I achieved national top 3 in the Integrated Circuits Computer Aided Design Contest by developing a C++ application that optimizes the shapes, positions, and directions of components for PCB manufacturing.
 
-Key Skills: C++
+Key Skills: C++, CAD, optimization
 
 ## Android App
 ### City Information App
