@@ -15,17 +15,18 @@ Thank you for visiting my project showcase, and I hope you enjoy exploring these
   - All To All Heartbeating Membership Protocol (C++, distributed systems, membership protocol)
   - Fault-Tolerant Key-Value Store (C++, distributed systems, key-value stores, replication control, load-balancing mechanisms, consistent hashing ring)
 - Web Development
-  - Trip Plan Management App (Python, FastAPI, MongoDB, Redis Caching)
+  - [Containerized Authentication Service](https://github.com/CHIHCHIEH-LAI/ExploreXchange) (Python, FastAPI, MySQL, Docker, Docker Compose)
+  - [Trip Plan Management App](https://github.com/CHIHCHIEH-LAI/ExploreXchange) (Python, FastAPI, MongoDB, Redis Caching)
   - Publication Explorer App (Python, MySQL, MongoDB, Neo4j, Dash)
-  - Employee Data Management API (Elixir, PostgreSQL)
-  - NBA Player Narrative Visualization (D3js, HTML, JavaScript, CSS, front-end web)
+  - [Employee Data Management API](https://github.com/CHIHCHIEH-LAI/payroll_api) (Elixir, PostgreSQL)
+  - [NBA Player Narrative Visualization](https://github.com/CHIHCHIEH-LAI/NBA-Player-Narrative-Visualization-Drilldown-D3js) (D3js, HTML, JavaScript, CSS, front-end web)
 - AWS Applications
   - US City Distance Calculator Chatbot (PyThon, AWS Lambda, AWS DynamoDB, AWS Lex, serverless computing)
   - AWS Storage Service with RDS, ElastiCache, and S3 (Python, AWS RDS, AWS ElasticCache for Redis, AWS S3)
-  - Deep Learning Web Service (Python, Flask, Docker, DockerHub, AWS EKS)
+  - [Deep Learning Web Service Launcher](https://github.com/CHIHCHIEH-LAI/MLServiceLauncher-EKS) (Python, Flask, Docker, DockerHub, AWS EKS)
 - ML/DL Applications
   - CPU Performance Analysis and Prediction
-  - Face-Aging Image Generation Model (Python, PyTorch, Numpy, generative adversarial network (GAN))
+  - [Face-Aging Image Generation Model](https://github.com/CHIHCHIEH-LAI/Aging-GAN-PyTorch) (Python, PyTorch, Numpy, generative adversarial network (GAN))
   - Logo Generation Model (Python, PyTorch, Numpy, generative adversarial network (GAN))
   - Mango Tier Classifier (Python, scikit-learn)
 - Computer-Aided Design
@@ -88,6 +89,13 @@ The protocol implementation follows a three-layer protocol stack, containing app
 Key Skills: C++, distributed systems, key-value stores, replication control, load-balancing mechanisms, consistent hashing ring
 
 ## Web Development
+### Containerized Authentication Service
+The objective of this project is to design and implement two RESTful HTTP APIs that handle account creation and verification processes using FastAPI. The system processes JSON payloads for input and output, ensuring robust error handling and input validation. The implementation utilizes FastAPI, MySQL as the database, and Pydantic for data validation. The application is containerized using Docker for deployment and distribution, and the Docker image is available on Docker Hub.
+
+[REPO](https://github.com/CHIHCHIEH-LAI/fastapi-authentication-service)
+
+Key Skills: Python, FastAPI, MySQL, Docker, Docker Compose
+
 ### Trip Plan Management App
 - I’m working on a trip plan management that will allow users to manage, download and share their travel plans.
 - Until now, the application supports creating, deleting, updating, and retrieving travel plans and it has the ability to download trip details in ics file format. 
@@ -151,7 +159,7 @@ The project builds a storage service with read and write APIs for a relational d
 
 Key Skills: Python, AWS RDS, AWS ElasticCache for Redis, AWS S3
 
-### Deep Learning Web Service
+### Deep Learning Web Service Launcher
 This project sets up and manages infrastructure using Kubernetes and Docker containers to provide an online image classification service for the given project. The service will be exposed through a web server interface that receives HTTP requests and launches corresponding machine learning (ML) jobs using Kubernetes.
 
 [REPO](https://github.com/CHIHCHIEH-LAI/MLServiceLauncher-EKS)
