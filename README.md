@@ -154,6 +154,8 @@ Key Skills: Python, AWS RDS, AWS ElasticCache for Redis, AWS S3
 ### Deep Learning Web Service
 This project sets up and manages infrastructure using Kubernetes and Docker containers to provide an online image classification service for the given project. The service will be exposed through a web server interface that receives HTTP requests and launches corresponding machine learning (ML) jobs using Kubernetes.
 
+[REPO](https://github.com/CHIHCHIEH-LAI/MLServiceLauncher-EKS)
+
 Key Skills: Python, Flask, Docker, DockerHub, AWS EKS
 
 ## ML/DL Applications
