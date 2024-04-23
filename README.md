@@ -23,7 +23,7 @@ Thank you for visiting my project showcase, and I hope you enjoy exploring these
   - [NBA Player Narrative Visualization](https://github.com/CHIHCHIEH-LAI/NBA-Player-Narrative-Visualization-Drilldown-D3js) (D3js, HTML, JavaScript, CSS, front-end web)
 - AWS Applications
   - US City Distance Calculator Chatbot (PyThon, AWS Lambda, AWS DynamoDB, AWS Lex, serverless computing)
-  - AWS Storage Service with RDS, ElastiCache, and S3 (Python, AWS RDS, AWS ElasticCache for Redis, AWS S3)
+  - AWS Storage Service (Python, AWS RDS, AWS ElasticCache for Redis, AWS S3)
   - [Deep Learning Web Service Launcher](https://github.com/CHIHCHIEH-LAI/MLServiceLauncher-EKS) (Python, Flask, Docker, DockerHub, AWS EKS)
 - ML/DL Applications
   - CPU Performance Analysis and Prediction
