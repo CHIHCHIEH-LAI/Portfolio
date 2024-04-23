@@ -41,6 +41,7 @@ Thank you for visiting my project showcase, and I hope you enjoy exploring these
 - AI: PyTorch, scikit-learn
 - Cloud: AWS EC2, Lambda, DynamoDB, RDS, ElasticCache for Redis, S3
 - Architecture: distributed systems, CPU, FPGA, ASIC
+- Web Framework: FastAPI, Flask
 
 ## Quantitative Research
 ### Automated Alpha Research Process
