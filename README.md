@@ -19,7 +19,7 @@ Thank you for visiting my project showcase, and I hope you enjoy exploring these
   - [Trip Plan Management App](https://github.com/CHIHCHIEH-LAI/ExploreXchange) (Python, FastAPI, MongoDB, Redis Caching)
   - Publication Explorer App (Python, MySQL, MongoDB, Neo4j, Dash)
   - [Employee Data Management API](https://github.com/CHIHCHIEH-LAI/payroll_api) (Elixir, PostgreSQL)
-  - [Secure API Integration Practice with OAuth 2.0 and Eventbrite](https://github.com/CHIHCHIEH-LAI/EventbriteAPIHub) (Key Skills: Python, FastAPI, OAuth2)
+  - [Secure API Integration Practice with OAuth 2.0 and Eventbrite](https://github.com/CHIHCHIEH-LAI/EventbriteAPIHub) (Python, FastAPI, OAuth2)
   - [NBA Player Narrative Visualization](https://github.com/CHIHCHIEH-LAI/NBA-Player-Narrative-Visualization-Drilldown-D3js) (D3js, HTML, JavaScript, CSS, front-end web)
 - AWS Applications
   - US City Distance Calculator Chatbot (PyThon, AWS Lambda, AWS DynamoDB, AWS Lex, serverless computing)
