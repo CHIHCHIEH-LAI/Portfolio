@@ -35,16 +35,6 @@ Thank you for visiting my project showcase, and I hope you enjoy exploring these
   - PCB Copper Component Optimization (C++)
 - Android Development
   - City Information App (Java, Android App)
- 
-## Skills
-- Programming Languages: C++, Python, Verilog
-- Big Data: Hadoop/Spark MapReduce, PySpark, Apache Storm, MLLib
-- AI: PyTorch, scikit-learn
-- Database: MySQL, MongoDB, Neo4j, Redis, DynamoDB, PostgreSQL
-- Cloud: AWS EC2, Lambda, DynamoDB, RDS, ElasticCache for Redis, S3, API Gateway, load balancer
-- Architecture: distributed systems, CPU, FPGA, ASIC
-- Web Framework: FastAPI, Flask
-- IPC: RESTful API, gRPC
 
 ## Quantitative Research
 ### Automated Alpha Research Process
