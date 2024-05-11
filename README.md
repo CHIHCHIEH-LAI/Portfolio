@@ -11,7 +11,7 @@ Thank you for visiting my project showcase, and I hope you enjoy exploring these
 - Quantitative Research
   - Automated Alpha Research Process (Alpha Research, Python, API Calling)
 - Distributed Systems
-  - `Currently working on` [Distributed Stock Transaction Log](https://github.com/CHIHCHIEH-LAI/StockTrading-ConsensusRaft) (Python, gRPC, asyncio, Raft Consensus Protocol)
+  - [Distributed Stock Transaction Log](https://github.com/CHIHCHIEH-LAI/StockTrading-ConsensusRaft) (Python, gRPC, asyncio, Raft Consensus Protocol)
   - Gossip-Style Heartbeating Membership Protocol (C++, distributed systems, membership protocol)
   - All To All Heartbeating Membership Protocol (C++, distributed systems, membership protocol)
   - Fault-Tolerant Key-Value Store (C++, distributed systems, key-value stores, replication control, load-balancing mechanisms, consistent hashing ring)
