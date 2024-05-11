@@ -16,7 +16,6 @@ Thank you for visiting my project showcase, and I hope you enjoy exploring these
   - All To All Heartbeating Membership Protocol (C++, distributed systems, membership protocol)
   - Fault-Tolerant Key-Value Store (C++, distributed systems, key-value stores, replication control, load-balancing mechanisms, consistent hashing ring)
 - Web Development
-  - `Currently working on` [Software Update SNS Notification System](https://github.com/CHIHCHIEH-LAI/Software-Update-SNS-Notification-System) (AWS SNS, Lambda, S3)
   - [Containerized Authentication Service](https://github.com/CHIHCHIEH-LAI/fastapi-authentication-service) (Python, FastAPI, MySQL, Docker, Docker Compose)
   - [Trip Plan Management App](https://github.com/CHIHCHIEH-LAI/ExploreXchange) (Python, FastAPI, MongoDB, Redis Caching)
   - Publication Explorer App (Python, MySQL, MongoDB, Neo4j, Dash)
@@ -24,6 +23,7 @@ Thank you for visiting my project showcase, and I hope you enjoy exploring these
   - [Secure API Integration Practice with OAuth 2.0 and Eventbrite](https://github.com/CHIHCHIEH-LAI/EventbriteAPIHub) (Python, FastAPI, OAuth2)
   - [NBA Player Narrative Visualization](https://github.com/CHIHCHIEH-LAI/NBA-Player-Narrative-Visualization-Drilldown-D3js) (D3js, HTML, JavaScript, CSS, front-end web)
 - AWS Applications
+  - `Currently working on` [Software Update SNS Notification System](https://github.com/CHIHCHIEH-LAI/Software-Update-SNS-Notification-System) (AWS SNS, Lambda, S3)
   - US City Distance Calculator Chatbot (PyThon, AWS Lambda, AWS DynamoDB, AWS Lex, serverless computing)
   - AWS Storage Service (Python, AWS RDS, AWS ElasticCache for Redis, AWS S3)
   - [Deep Learning Web Service Launcher](https://github.com/CHIHCHIEH-LAI/MLServiceLauncher-EKS) (Python, Flask, Docker, DockerHub, AWS EKS)
