@@ -16,6 +16,7 @@ Thank you for visiting my project showcase, and I hope you enjoy exploring these
   - All To All Heartbeating Membership Protocol (C++, distributed systems, membership protocol)
   - Fault-Tolerant Key-Value Store (C++, distributed systems, key-value stores, replication control, load-balancing mechanisms, consistent hashing ring)
 - Web Development
+  - [Low-Level Client-Server Communication](https://github.com/CHIHCHIEH-LAI/Cplusplus-Low-Level-Client-Server-Communication/tree/main) (C++, socket, thread pool)
   - [Containerized Authentication Service](https://github.com/CHIHCHIEH-LAI/fastapi-authentication-service) (Python, FastAPI, MySQL, Docker, Docker Compose)
   - [Trip Plan Management App](https://github.com/CHIHCHIEH-LAI/ExploreXchange) (Python, FastAPI, MongoDB, Redis Caching)
   - Publication Explorer App (Python, MySQL, MongoDB, Neo4j, Dash)
